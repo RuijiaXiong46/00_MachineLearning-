@@ -1,0 +1,277 @@
+This project is rooted in a profound grasp of architectural and urban design history.
+ It envisions the city as a vibrant and ever-evolving entity engaged in an enduring conflict between two contrasting perspectives: the top-down and the bottom-up.
+ This dichotomy, stemming from divergent schools of thought, is perceived as a universal urban archetype.
+ Taking inspiration from Italo Calvino's acclaimed work, "Invisible Cities," and harnessing the power of machine learning, we've forged an innovative design methodology.
+ This approach facilitates a design workflow navigated primarily through text, enabling designers to fluidly oscillate between these two distinct schools of urban theory.
+ Notably, our project not only provides a platform for transforming abstract sentiments into tangible design elements but also offers a dynamic arena for exploring the ever-shifting conflicts within cities.
+ Reflecting the essence of the project's title, "Invisible City In-Between" ,our work resonates with the themes explored in Calvino's book.
+ It unveils the potential for 55 unique urban iterations within an instant, demonstrating the captivating interplay of urban dynamics in real-time.
+ “ … there is a fundamental law about the creation of complexity …(which) states simply this: all the well-ordered systems that we know in the world, all those anyway that we view as highly successful, are generated structures, not fabricated structures.
+ The advent of cybernetics and the progression of information technology in the previous century have led to a growing perception that conventional urban planning methods are becoming increasingly inadequate.
+ Hall describes the impact of cybernetic thinking on urban planning, a development that he terms ‘cybernated planning’ (Hall, 1992, p.
+ This emerged out of traditional, formalist ideas of planning as production of plans for the future desired state of the area and ‘towards the new idea of planning as a continuous series of controls over the development of the area, aided by devices which seek to model or simulate the process of the development so that this control can be applied’ (Hall, 1992, p.
+ Moreover, the impact of cybernetics on urban planning can also be seen in the conceptualization of the city as a system, as demonstrated by models such as the "plug-in city" and Crompton's "Computer City Project" from 1964.
+ It is also interesting to note that an early use of the term ‘smart city’ by Hall in later literature as:Designed, constructed and maintained, making use of advanced, integrated materials, sensors, electronics, and networks which are interfaced with computerized systems com[1]prised of databases, tracking, and decision-making algorithms … At the most superficial level is the fundamental component and its associated "feedback" or self-monitoring mechanism(s).
+ It is evidenced that Cybernetics, as well as the concept of smart cities, had a significant impact on urban planning approaches and introduced a technologically informed system thinking to address what was perceived as 'wicked' problems of urban complexity.
+ The discourse on smart cities with the application of cybernetics is anchored in the idea that cities inherently pose challenges that require systematic solutions to mitigate.
+ Proponents of this view frame the complexities of urban life as a problem that can be addressed by implementing technology-based solutions.
+ Empirical studies by several authors have illustrated that the inadequacy of contemporary city systems is rooted in outdated urban planning practices, which are perceived to have been unable to effectively handle the intricate components of cities, particularly the technological ones (Firmino, Aurigi & Camargo, 2006;  Cowley & Caprotti, 2019;  Van Hulst, 2012;  Graham, 1997).
+ The discourse surrounding smart cities often depicts urbanization as a crisis.
+ It presents the city as a patient needing treatment, with the urban character being the primary focus of the problem.
+ " As you will see, we are calling them ‘wicked’ not because these properties are themselves ethically deplorable.
+ We use the term ‘wicked’ in a meaning akin to that of ‘malignant’ (in contrast to ‘benign’) or ‘vicious’ (like a circle) or ‘tricky’ (like a leprechaun) or ‘aggressive’ (like a lion, in contrast to the docility of a lamb).
+ We do not mean to personify these properties of social systems by implying malicious intent.
+ Wicked problems are complex, multi-faceted, and difficult to define, solve, or measure.
+ In the 1960s, Horst Rittel and Melvin Webber(1973) introduced the concept of "wicked problems" to challenge the cybernetic approach to urban planning and governance.
+ They argued that the problems faced in cities, such as inequality, civil unrest, and urban renewal, could not be addressed with a simple, scientific approach because they are shaped by diverse values and constantly changing contexts.
+ Furthermore, solutions to these problems have unexpected consequences, making it difficult to test them accurately.
+ As a result, Webber and Rittel (1973) posited that urban planning challenges are inherently political.
+ Various challenges that smart cities aim to resolve, such as climate change or mudslides, are considered wicked problems due to their complexity and the challenges they pose to finding solutions.
+ " Under the seeming disorder of the old city, wherever the old city is working success[1]fully, it is a marvellous order for maintaining the streets' safety and the city's freedom.
+ Its essence is intricacy of sidewalk use, bringing with it a constant succession of eyes … The ballet of the good city sidewalk never repeats itself from place to place, and in any one place is always replete with improvisations.
+ In her seminal work from 1961, Jane Jacobs offered a comprehensive critique of modern urban planning practices, characterizing it as a "pseudoscience" with a problematic preoccupation for replicating failed empirical approaches and disregarding successful ones.
+ 183) She made an appeal to urban planners and city policymakers to comprehend the complex and interrelated nature of the issues facing cities.
+ Jacobs believed that the solution lies in comprehending and utilizing the inherent order of cities, incorporating the most insightful findings from new sciences and pragmatic methods.
+ The background to Jane Jacobs' book is the proposed construction of a highway in Greenwich Village, where she lived, by New York city planner Robert Moses in 1955.
+ Moses subscribed to the modernist urban planning ideology, which viewed cities as diseased and sought to address this through large-scale infrastructural solutions, often resulting in the destruction of city features.
+ In contrast, Jacobs argued for the importance of social capital, which is linked to the physical form of the city, such as its streets, sidewalks, parks, and mix of uses.
+ She developed a thesis valuing small-scale city neighborhoods and their unique elements and character, and drew evidence from her own neighborhood to show its transferability to other urban contexts.
+ A central focus of her study was the role of everyday street life in urban areas, referred to as "sidewalk ballet.
+ under the seeming disorder of the old city, wherever the old city is working successfully, is a marvelous order for maintaining the safety of the streets and the freedom of the city.
+ Its essence is intricacy of sidewalk use, bringing with it a constant succession of eyes … The ballet of the good city sidewalk never repeats itself from place to place, and in any one place is always replete with improvisations.
+ Jane Jacobs introduced a novel perspective on urban planning by emphasizing the importance of the chaotic, small-scale, and social characteristics of a place, as well as diversity.
+ This approach, at the time considered revolutionary, remains relevant today.
+ Moses, a proponent of modernist urban planning, believed that the solution to the problems of cities was through the introduction of top-down, infrastructure-led regeneration.
+ This perspective was challenged by Jacobs, who viewed the complexity of the lived city as being defined by its localized and social characteristics, rather than the controlled and centralized city system represented by the proposed road.
+ The large-scale smart cities projects of today can be seen as similar in that they seek to introduce a technologized infrastructure that dominates the heart of a city's neighborhoods.
+ " You take delight not in a city's seven or seventy wonders, but in the answer it gives to a question of yours.
+ "Invisible Cities" is a novel by Italian writer Italo Calvino, first published in 1972.
+ The book is structured as a series of conversations between the aging explorer Marco Polo and the young emperor Kublai Khan, in which Marco Polo describes the 55 cities he has visited on his travels.
+ In the book, Calvino encourages readers to transcend their existing knowledge frames and to challenge their personal identity constraints through the interplay between Kublai Khan and Marco Polo's differing perspectives of the cities they encounter.
+ Specifically, Calvino employs the contrasting views of the Empire of Diamond and the City of Meaning to facilitate this process, leading readers to reach a point of "uncovering" and engage in a re-examination of the issue of space.
+ The ultimate aim is to generate an infinite range of possibilities for knowledge creation.
+ This dialogue from two points of view in the book is very similar to our definition of the city as a conflict progress, hence we further deconstruct the book and use it as our methodology.
+ As argued in the previous chapter, the urban environment is characterized by an ongoing interplay of contradictions.
+ Therefore, the initial step in our design process aims to recreate, drawing upon the invisible city as a reference, a dialogue and interaction between two distinct theoretical urban personas, much like Khan and Polo.
+ We also intend to apply 55 (or more!!!) urban concepts to these personas, illustrating a concept of continual shifting between opposing viewpoints.
+ with the two personas and the dialogues created, We can then build on this  to further develop our design based on the contradictions and conflicts.
+ Kublai Khan viewed cities as having a perfect molecular structure, much like diamonds, which could be understood once the structure was mastered.
+ He believed that the city could be divided into immeasurably small elements, such as walls, streets, houses, rivers, bridges, ports, cliffs, wars, sadness, happiness, etc.
+ By permuting and combining these basic elements, one could create different concrete cities.
+ Kublai Khan sent Marco Polo to find the cities he had imagined, believing that the combination of these basic elements had certain laws that, once mastered, could allow for the ultimate calculation of the form of all cities to be made in an unchanging manner.
+ He saw this process as similar to chess, where the rules determined the specific game.
+ Thus, he conceived of a model city, which included everything that conformed to the norm, as well as all possible exceptions.
+ This understanding of the city arose from Kublai Khan's imperial role, which required him to manage a vast empire, and he believed that by discovering the constant elements that made up the city and finding the laws of its composition, he could keep an eye on everything that was going on in the Empire without ever leaving his home.
+ In his view, this discovery could be solidified into knowledge to guide others and consolidate the empire.
+ Due to Khan's authoritative and governing disposition, we have incorporated 60 prominent top-down theoretical works to embody Khan's persona.
+ Within the context of the dialogue, Khan predominantly symbolizes the aspects of governance and regulations within the urban landscape.
+ Marco Polo, as a merchant, vassal, and traveler, perceived cities as complex and ever-changing entities.
+ He argued that cities were not composed of constant basic elements, but of numerous exceptions, uncertainties, illogicalities, and contradictions.
+ Even seemingly constant elements such as walls, streets, and houses could be altered beyond recognition by a slight change of era or descriptor.
+ Moreover, Polo believed that cities did not follow any rules but were the product of imagination, chance, and contingency, leading to unique and fragmented cities that defy generalization, summary, or abstraction.
+ Instead, Polo reveled in the endless narrative, starting with memories, wishes, signs, minuscule details, trade, eyes, names, the dead, sky, stretch, and concealment, constantly sprouting new branches.
+ Polo's city, thus, represents an unanswerable surface that raises questions that force answers, forming an ever-expanding, endless web of meaning that hangs over the city.
+ This city of meaning contains the whole world, presenting an all-embracing simultaneity that opens up an endless world to the researcher.
+ However, its unprecedented challenge is daunting, and any attempt to grasp this all-encompassing space through words and texts is impossible and ends in despair.
+ Hence, Marco Polo's view of the city represents a stark contrast to Kublai Khan's ordered and precise conception and presents an unanswerable challenge to those who seek to understand the infinite complexities of urban life.
+ Owing to Marco Polo's civic and poetic inclinations, we have employed 60 foundational bottom-up theoretical works to encapsulate the essence of Marco Polo's character.
+ Within the dialogic framework, Marco Polo showcases the complexity and diversity inherent to the cityscape.
+ This discourse between Kublai Khan and Marco Polo can be regarded as a quintessential representation of urban prototype, drawing from universal urban theories as their foundation.
+ To imbue this dialogue with contextual significance, it is imperative to embed the conversation within a robust spatial context.
+ It becomes imperative for us to identify an Istanbul that resonates on a deascriptive plane, thus facilitating a seamless connection and comprehension for both theoretical personae.
+ " For me it has always been a city of ruins and of end-of-empire melancholy.
+ I’ve spent my life either battling with this melancholy or (like all İstanbullus) making it my own.
+ Situated at the crossroads of the Eurasian continent, Istanbul boasts an urban complexity that far surpasses that of many other cities.
+ This intricacy necessitates a heightened level of meticulousness when seeking source materials that authentically capture the essence of Istanbul on a descriptive level.
+ While the urban prototype we have meticulously crafted can indeed resonate with personal memories entrenched in the Istanbul milieu, our approach has been particularly deliberate in the curation of literary sources that encapsulate the collective consciousness of this remarkable city.
+ It is within this context that we've chosen to draw upon "Istanbul: Memories and the City," authored by Orhan Pamuk.
+ This literary work stands as a cornerstone, encapsulating the spirit of Istanbul's shared memory and experience, allowing it to serve as a poignant foundation for our exploration and dialogue.
+ "Istanbul: City of Memories" is a book by Orhan Pamuk that explores the city of Istanbul through the lens of personal memory and experience.
+ The author lived in Istanbul for several years and draws on his deep familiarity with the city to create a vivid portrait of its culture, history, and people.
+ The book is structured as a series of chapters, each one focusing on a different aspect of Istanbul, from its iconic landmarks to its vibrant street life and rich literary traditions.
+ orhan's prose is poetic and evocative, bringing the sights, sounds, and smells of Istanbul to life on the page.
+ Similar to the 55 cities depicted in "Invisible Cities," Orhan Pamuk's memoir "Istanbul: Memories and the City" presents a unique interpretation of Istanbul.
+ We see this description as a alternative version of "Istanbul city", which at this moment can see as both personal and collective.
+ Through his recollections and reflections, Pamuk imbues the city with his own emotions and experiences.
+ The profound and layered prose of the memoir allows for an intimate connection between the reader and the city, making it a key protagonist in the narrative.
+ This aspect makes it an important contribution to the discourse on Istanbul and a significant representation of the city in literature.
+ Throughout the design process, we thoroughly explored the potential of incorporating various literary works to encapsulate the essence of Istanbul.
+ These ranged expansively, encompassing not only alternative works by Orhan Pamuk, but also extending to literary offerings such as "Istanbul Passage" by Joseph Kanon, the comprehensive "Istanbul Encyclopedia," among others.
+ Likewise, we contemplated the inclusion of review from travellers and locals.
+ However, following meticulous deliberation, it became evident that none of these sources possessed the capacity to authentically embody the collective memories woven into the fabric of Istanbul's successive generations, while simultaneously achieving the rational portrayal of its urban landscapes and the poignant evocation of its reminiscences.
+ In summary, we arrived at the resolute decision to embrace "Istanbul: Memories and the City" as our theoretical focal point—an optimal choice that resonates as a definitive repository of our chosen site's cultural and emotional heritage.
+ Literature serves as the foundation of our chosen conceptual landscape, functioning as the terrain we traverse guided by the perspectives of Marco Polo and Khan.
+ Utilizing textual expressions, we are enabled to superimpose the ethereal essence of Istanbul onto our universally applicable framework.
+ This prototype, in a dynamic interplay, becomes incrementally intertwined with the contextual nuances of Istanbul through the continuous oscillation between divergent viewpoints presented within the dialogues.
+ This gradual fusion between the prototype and Istanbul's distinctive character orchestrates a transformation, manifesting itself as an ongoing dialectical tension characterized by the interplay of top-down and bottom-up influences.
+ The resultant configuration symbolizes the essence of our message—to perceive the city as an ever-evolving arena of conflicting forces.
+ The Urban prototype, imbued with the contextual essence drawn from the perspectives of Marco Polo, Khan, and with assistance of Orhan Pamuk, stands poised as the cornerstone of our design endeavor, providing the fundamental underpinning for all ensuing creative manifestations.
+ Concurrently, this methodology affords us the unique opportunity to engage in design through the pure medium of dialogue.
+ In the book "Istanbul: Memories and the City," a specific childhood recollection set in Beşiktaş was deliberately selected.
+ This choice was made not only due to Beşiktaş's central location within Istanbul but also for its unique ability to harmonize both the vivid depiction of a location and the intricate psychological experiences of the author.
+ This particular memory possesses an inherent equilibrium, offering a well-rounded portrayal that encapsulates both the atmospheric essence of the place and the intricate emotional landscape of the author.
+ Furthermore, the selected memory's length falls within an optimal range, ensuring a balanced and engaging narrative that resonates effectively with readers.
+ This meticulous selection process underscores the careful consideration that went into curating a memory that not only captures the essence of Istanbul but also aligns seamlessly with the thematic undertones of the book.
+ A Self-Organizing Map (SOM) is a type of artificial neural network designed for unsupervised learning.
+ Unlike traditional networks, SOMs have a grid-like structure where neurons adjust their weights during training to cluster similar input data patterns, thus providing a topological, lower-dimensional representation of the data.
+ This unique mechanism enables the preservation of data relationships and facilitates intuitive visualizations.
+ Our two SOM models have been trained on urban policy datasets— creating the two personas represent Kubla Khan and Macro Polo respectively.
+ By inputting descriptive city texts into these models, each SOM generates a respective urban policy reflecting its training.
+ Together, the policies provide a comprehensive understanding of urban development from two distinct angles.
+ After training our SOMs, we've essentially endowed these two personas with machine learning capabilities, creating a novel "thinking pattern" that deciphers cities in a transformative manner.
+ The two results can represent the combination of the top-down and bottom-up development process of the city, and at the same time, we can understand the appearance of the city constructed from different perspectives.
+ The Best Matching Unit (BMU) is a fundamental concept in the training algorithm for Self-Organizing Maps.
+ The BMU is the neuron in the SOM whose weight vector is closest to a given input vector in Euclidean distance.
+ the BMU represents the neuron in the SOM that is most similar to the input vector in terms of its weights.
+ During training, the SOM adjusts its weights to move the BMU closer to the input vector, while also adjusting the weights of neighboring neurons to a lesser extent.
+ This allows the SOM to learn the underlying structure of the input data and organize it into clusters or groups.
+ When we present a text data to the SOM after it has been trained, the BMU for that data is the neuron whose weights most closely match the input vector.
+ As we are re using text resources from urban theory books, the BMU would represent patterns or themes present in those sentences.
+ For example, if there's a frequent theme in urban theory about "public spaces," then one of the BMUs might have weights that make it most responsive to sentences discussing public spaces.
+ When we input a sentence about public spaces, this BMU would likely be the one activated.
+ In a trained SOM, each BMU will be associated with a particular type of sentence or theme from the corpus, which can allow us to 'translate' our own input into opinion of Kubla Khan and Macro Polo.
+ Upon successfully training the SOMs, we enter the realm of utilizing our methodology in tandem with input text, specifically the paragraph extracted from "Istanbul: Memories and the City.
+ " Following the steps elucidated earlier, we employ this methodology to project the input text onto the personas of Marco Polo and Kublai Khan, extracting the Best Matching Units from each persona's SOM.
+ Within each Best Matching Unit, we find clusters of similar text pieces, previously grouped during SOM training, thus constituting distinct families that occupy the same unit cell.
+ The ensuing stage involves the strategic replacement of the original input text with words attributed to either Polo or Khan, a process that grants designers the freedom to choose between top-down and bottom-up approaches.
+ This junction serves as a pivotal juncture where our urban prototype is harmoniously linked to Istanbul's contextual dynamics.
+ Through this dynamic interplay, we craft a replacement paragraph that is not only tailored to Istanbul's essence but also retains the essence of the chosen persona, thereby generating an extended and seamlessly integrated narrative.
+ Such inner peace as men gain must represent a tension among contradictions and uncertainties.
+ A feeling for paradox allows seemingly dissimilar things to exist side by side, their very incongruity suggesting a kind of truth.
+ Following the acquisition of our replaced urban prototype, the next phase involves the iterative development of our design, centering on the exploration of contradictions and oppositions within urban design.
+ We commence by establishing three fundamental elements essential for crafting a vibrant urban scenario:.
+ Setting Name: This refers to the specific designation of the location where the envisioned urban scene unfolds.
+ This name corresponds to the typology of buildings within the city, encompassing diverse options such as an art gallery, library, or other architectural entities that serve as contextual anchors.
+ Actors and Scripts: This pertains to the integration of programmatic elements and activities intrinsic to the urban space.
+ By identifying actors and drafting scripts, we delineate the dynamic interplay of activities, functions, and events that breathe life into the envisioned urban realm.
+ Scene Form: This element is concerned with the visual composition of the scene itself.
+ It encapsulates the aesthetic essence and visual attributes of the space, encompassing elements such as spatial arrangement, architectural form, and sensory engagement.
+ It's a numerical statistic used to reflect how important a word is to a document in a collection or corpus.
+ It's a statistical measure used to evaluate how important a word is to a document in a collection or corpus.
+ TF-IDF works on matching text data by assigning importance to each word in a set of documents.
+ This allows it to determine the relevance of data to a given query in extracting meaningful features from data.
+ Because of the inherent inaccuracies in machine learning, there is a tendency for outcomes to deviate from human-defined standards.
+ Implementing  in such a manner could lead to significant inconsistencies in design; however, it also opens up a fresh perspective for our creative process.
+ Urban prototypes, or architectural types, serve as foundational models in urban design.
+ They provide insights into how specific spaces and buildings interact with their surroundings, offering proven solutions to recurrent urban challenges.
+ Urban typologies are essential as they define how spaces function and cater to human needs.
+ To gain insights into urban typology for informed design decisions, data was sourced directly from ArchDaily.
+ By scraping the website, we scraped all relevant categories, their specific types, and descriptions.
+ This process involved navigating ArchDaily's structure, identifying key data points, and efficiently gathering this information.
+ The extracted data, once cleaned and organized, provides a comprehensive perspective on architectural trends and urban typologies, aiding in better-informed urban design choices.
+ Spaces are not just physical entities; they're stages for human activity.
+ According to Robert Venturi and other influential architects, the true essence of a space is defined by the actions and interactions that unfold within it.
+ From this perspective, the architecture isn't just about constructing walls, floors, and roofs; it's about designing spaces that accommodate, enhance, and inspire human activities.
+ We begin with scraping documentaries centered on Istanbul's street life, ensuring each features clear visuals and high resolution for optimal action classification.
+ Leveraging a fine-tuned action classification model, we discern the three dominant actions from every video clip.
+ For video classification and searching In this part the model used for video classificationis a pytorch code for video (action) classification using 3D ResNet.
+ The 3Dresnet has two kinds of modes, score, and feature.
+ For score mode, the model has the last out put layer which is trained on 400 different activities.
+ In other words, when using score mode, the model will output a list of scores of 400 activities for every 16 frames in a video.
+ For feature mode, the function aims to find video segments that are similar to a short video cut.
+ This can be useful, for example, to search for multiple similar video clips in a video library.
+ By comparing the characteristics of the short video cut with the features of the videos in the library, the function can identify the most similar ones.
+ However, the classification model assess action without any understanding of what the video is about, so the result sometime is not so accurate.
+ The occasional misinterpretations by our classification model—like conflating walking with marching.
+ To analyze and match data efficiently, it's imperative to convert multifaceted video data into the textual format.
+ By converting video data into such detailed textual descriptions, we not only retain the essence of the visual content but also create a format that's amenable to text matching algorithms.
+ Therefore, we employ GPT to formulate a textual description for each action group, contextualizing the principal activities within.
+ We can also link video into another library of art videos by video feature classification model and use it as a moodboard.
+ In this way, we can identify artistic videos that resonate with our original video.
+ This creates a bridge between the pragmatic and the artistic, enabling us to gain a deeper, more layered understanding of the original content.
+ For instance, a street scene from Istanbul, might be matched with an art video showcasing a dynamic dance performance.
+ The juxtaposition provides a new lens through which the original video can be viewed, enhancing its interpretive depth.
+ “Elements of Architecture looks at the fundamentals of our buildings, used by any architect, anywhere, anytime: the floor, the wall, the ceiling, the roof, the door, the window, the façade, the balcony, the corridor, the fireplace, the toilet, the stair, the escalator, the elevator, the ramp…Only by looking at the elements of architecture under a microscope can we recognize the cultural preferences, forgotten symbolism, technological advances, mutations triggered by intensifying global exchange, climatic adaptations, political calculations, regulatory requirements, new digital regimes, and, somewhere in the mix, the ideas of the architect that constitute the practice of architecture today…”(OMA.
+ As a constituent sub-system within the complex urban system, each architectural element's presence is not merely regarded as a design consideration for architects on a case-by case basis.
+ It also involves assessing whether these elements should be influenced by the larger system environment.
+ All buildings within a city might be impacted by a cohesive and indescribable "style" that contributes to the broader urban ambience.
+ Our project seeks to investigate and understand the influence of visual complexity stemming from Istanbul City on individual architectural elements, employing machine learning techniques to explore this relationship.
+ In our project, we focused on classifying architectural elements based on the taxonomy provided by Koolhaas's book "Elements of Architecture.
+ " To achieve this, we gathered a substantial dataset of images showcasing diverse architectural elements extracted from buildings in Istanbul.
+ These images were then employed to train a Self-Organizing Map (SOM).
+ Through extensive training on this rich dataset, the SOM acquired a comprehensive understanding of the architectural elements and their spatial relationships within the context of Istanbul.
+ Subsequently, the SOM proceeded to cluster the images of architectural elements, de-dimensionalizing the high-dimensional visual complexity of Istanbul's urban landscape by utilizing the preset grid dimension.
+ Once the model attained proficiency through training, it furnished us with a comprehensive perspective of Istanbul's urban fabric.
+ This understanding enables its application in comprehending future architectural projects from an Istanbul-centric standpoint.
+ "But, actually, an affordance is neither an objective property nor a subjective property; or it is both if you like.
+ An affordance cuts across the dichotomy of subjective-objective and helps us to understand its inadequacy.
+ It is equally a fact of the environment and a fact of behavior.
+ An affordance points both ways, to the environment and to the observer.
+ We hold the belief that every architectural element possesses distinct affordances within varying urban contexts.
+ Affordances are intricately linked with the local culture and the habitual ways of life of the inhabitants.
+ They constitute a facet of urban complexity, a collective understanding and viewpoint ingrained in the local populace's subconscious—an essence that eludes easy verbal articulation.
+ This intangible "sense" resists deconstruction through rational analysis, making employment of machine learning the most fitting approach for integration into design.
+ Consider, for instance, a rooftop in Istanbul depicted on the left.
+ Given Istanbul's topography and other influencing factors, the rooftop serves as a fifth façade.
+ Engaging in tea consumption atop the roof has nearly evolved into a conspicuously prevalent practice, illustrating a quintessential manner of utilizing Istanbul's rooftops.
+ Additional applications of rooftop space have been showcased in prominent film sequences, further enriching the array of affordances associated with Istanbul's rooftops.
+ By employing Self-Organizing Maps (SOM) for classification and generating an interactive unsupervised machine learning model, we are empowered to categorize existing architectural pictures through a lens that draws inspiration from the affordances observed in Istanbul.
+ We have developed a Self-Organizing Map (SOM) that undergoes training using images featuring architectural elements from Istanbul, following a similar methodology to the creation of personas for Marco Polo and Khan.
+ This SOM serves to reorganize the entirety of Istanbul's architectural elements, functioning as an unsupervised machine learning technique.
+ It scrutinizes the collection of images, subsequently reclassifying them without being confined to the constraints of predetermined categories.
+ Through this innovative approach, we are capable of redefining architectural elements in a manner that transcends the confines of artificial typologies that were established previously.
+ This process holds the potential to convey these architectural elements' affordance in a manner deeply rooted in the local culture, thus offering a novel and enriched perspective.
+ Once the Istanbul SOM framework is established, it becomes capable of accepting input images of architectural elements from diverse projects, irrespective of their architectural origin.
+ This system effectively groups these input elements with previously clustered Istanbul elements that share similarities based on specific features.
+ This methodology empowers us to systematically dissect the architectural compositions of various architects through the lens of Istanbul's distinctive context.
+ Viewed as an extensive assemblage of narratives, a city can be perceived as a canvas where architects emerge as creators of diverse stylistic stories.
+ By deconstructing an architect's body of work within the Istanbul context, we gain the ability to cherry-pick a storyteller whose narrative aligns seamlessly with the Istanbul essence.
+ This process enables us to imbue our urban prototype with narratives uniquely flavored by the spirit of Istanbul.
+ Our exploration led us to scour platforms like ArchDaily and other architectural resources in pursuit of pertinent works.
+ After meticulous evaluation, we arrived at the decision to partner with an architectural firm renowned for a substantial portfolio and a distinctive design identity.
+ This choice allows us to access a rich assortment of matching outcomes.
+ With utmost care and deliberation, we settled on OMA as the optimal host for our design endeavors.
+ The extensive array of their works not only ensures diversity in the results but also resonates with the overarching goals of our project.
+ After finalizing our choice of OMA as the designated design host, we proceeded by constructing an extensive database encompassing detailed descriptions and comprehensive project information for all of OMA's architectural endeavors.
+ This trove of data was meticulously curated from sources such as ArchDaily, complemented by an extensive collection of corresponding architectural project images.
+ The descriptive text associated with each project constitutes a textual representation that harmoniously intertwines with our earlier urban prototypes.
+ This integration allows for a fusion of OMA's architectural narratives with the context of Istanbul, creating a rich tapestry of design that captures both the essence of OMA's unique style and the distinctive spirit of Istanbul.
+ Through this innovative amalgamation of textual descriptions and visual representations, we foster a deeper understanding of how OMA's architectural stories can seamlessly align with the cultural and urban nuances of Istanbul.
+ Through the utilization of the TF-IDF (Term Frequency-Inverse Document Frequency) model, we have achieved a successful connection between our urban prototype and OMA's extensive project library.
+ This connection culminates in the identification of the best-matched project: Milstein Hall at Cornell University.
+ In this intricate process, the architectural elements within this chosen project assume the role of visual presentation and embodiment, akin to blood and flesh, arranged meticulously through our artificial eyes of the elements of Istanbul onto our urban prototype.
+ The architectural elements of Milstein Hall at Cornell University will be arranged by istanbul som and then reclassified as som deems appropriate.
+ Under each category, there are other architectural elements in Istanbul that Istanbul considers to be similar to the element.
+ We can guess the affordance of the architectural element that Istanbul wants to express through similar categorizing elements.
+ Upon introducing the staircase component from the original project into Istanbul's narrative, an intriguing revelation takes shape.
+ Istanbul, in its own distinctive voice, communicates that what appears to be a staircase is in fact akin to a roof within its context.
+ Likewise, when a ramp is presented to Istanbul, it responds by gently shaking its head and asserting that the element resembles a staircase within its own milieu.
+ This captivating phenomenon underscores the inherent beauty of our approach—one that breathes fresh life into objects that had been previously confined within predetermined definitions.
+ The output from the SOM reveals a collection of images belonging to a particular family, which is notably associated with circulation and vertical movement.
+ This insight suggests that, according to Istanbul's perspective, the input image is likely intended to primarily serve purposes aligned with a staircase.
+ The output from the SOM reveals a collection of images belonging to a particular family, which is notably associated with load-bearing and space framing.
+ This insight suggests that, according to Istanbul's perspective, the input image is likely intended to primarily serve purposes aligned with a roof.
+ Upon reaching the culmination of our workflow, we amass a multitude of elements poised to augment our design process.
+ By merging these components with image generation tools such as ChatGPT and Midjourney, we swiftly attain the capability to translate textual descriptions into visual representations.
+ This integrated approach, bolstered by swift AI-powered image generation rooted in urban theory and Istanbul's contextual fabric, holds the potential for broad application, effectively accommodating significant volumes on a substantial scale.
+ When integrated with geographical data-linked Google reviews, this methodology promptly unveils a distinct facet of Istanbul's urban panorama.
+ This revelation is akin to uncovering fifty-five concealed cities within the metropolis, each emanating its unique essence.
+ Through this innovative synergy, we stand on the verge of unveiling one amongst a limitless array of alternative iterations encapsulating the essence of Istanbul.
+ The Hürrem Sultan Hamamı, also known as the Hürrem Sultan Bath, holds a significant place in both history and society.
+ Located in Istanbul, Turkey, this historic Turkish bath was constructed during the 16th century during the reign of Sultan Suleiman the Magnificent.
+ Named after Hürrem Sultan, the wife of Sultan Suleiman, the hamam served as a testament to the grandeur and opulence of the Ottoman Empire.
+ Over the centuries, the Hürrem Sultan Hamamı witnessed the ebb and flow of Turkish history.
+ It stood as a symbol of communal gathering, relaxation, and purification for both locals and visitors.
+ However, as time passed, the hamam gradually fell into disrepair, requiring restoration and renovation to preserve its cultural heritage and address societal issues.
+ The decision to renovate the Hürrem Sultan Hamamı stemmed from a collective desire to protect and revive this architectural gem, which held immense historical and cultural value.
+ The restoration project aimed to breathe new life into the hamam, enabling future generations to experience its magnificence and understand its significance in Turkish history.
+ The renovation of the Hürrem Sultan Hamamı presented an opportunity to address certain societal issues as well.
+ As Turkish society evolved, there emerged a need to reconcile traditional practices with modern values and inclusivity.
+ The renovation process sought to strike a delicate balance between preserving the authenticity of the hamam and adapting it to meet contemporary expectations of accessibility and cultural sensitivity.
+ Emphasis was placed on ensuring that the hamam became a welcoming space for individuals from diverse backgrounds, genders, and orientations.
+ This involved implementing necessary modifications to accommodate the needs and preferences of all visitors while remaining respectful of the hamam's historical integrity.
+ Another important societal issue addressed during the renovation was environmental sustainability.
+ Efforts were made to incorporate eco-friendly practices and technologies into the revitalization process.
+ These included optimizing water and energy usage, utilizing sustainable materials, and implementing green infrastructure where feasible.
+ By embracing sustainability, the renovated Hürrem Sultan Hamamı aimed to set an example for future heritage preservation projects.
+ Ultimately, the renovation of the Hürrem Sultan Hamamı not only restored a historic landmark but also provided an opportunity to address societal issues and adapt to the changing needs and expectations of modern society.
+ By preserving its rich history while embracing inclusivity and sustainability, the hamam continues to serve as a bridge between the past and the present, offering an immersive cultural experience for visitors and contributing to the social.
+ In contrast to various other architectural projects, our endeavor places a distinct emphasis on exploring the realms of design navigation solely through the potency of text.
+ This unique focus led us to recognize the necessity for an intuitive interactive software, tailored to harmoniously integrate the workflows we have devised.
+ This software not only amplifies the potential of our methodologies but also serves as an accessible tool for architects to seamlessly adopt within their individual narrative contexts.
+ Through the provision of this interactive software, we democratize this innovative approach, making it available for adoption across diverse architectural practitioners.
+ Each architect can then imbue the method with their own narrative, thereby dispersessing the inherent contradiction embedded within linear workflows, giving rise to an expansive array of individualized narratives.
+ This transformation results in the fragmentation of the contradiction into myriad small narratives, akin to individual pieces within a larger mosaic.
+ This conception mirrors the very essence of our overarching theme: that a city evolves as a dynamic interplay between top-down and bottom-up influences.
+ Each of these countless small narratives, interwoven through this software-driven approach, contributes to the composition of the city.
+ The city, in essence, becomes an embodiment of the perpetual interplay and reconciliation between these diverse perspectives—a living embodiment of the multifaceted dialogue between top-down directives and bottom-up initiatives. 

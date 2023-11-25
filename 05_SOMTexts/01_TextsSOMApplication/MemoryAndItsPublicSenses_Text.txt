@@ -1,0 +1,255 @@
+The residents of Istanbul were used to making a living by the fisheries, it can be noticed that they have this impression of walking down the streets while they can view the sea.
+However, with the development of Istanbul, the continuous building constructions gradually blocked the view.
+In some of the areas, this city experience is fading out, it is worried that it may disappear or even be sort of forgotten one day.
+Therefore, this project is interested in repainting the forgotten spaces within the city.
+When looking at the cities in the world, it can be noticed that they are quite look alike and discern a certain homogeneity in their evolution over time, with many exhibiting similar patterns and characteristics.
+If people think about city, they would instantly think of the centralization of a group of high-rise building blocks.
+One of the reasons behind is that when people were growing up, the existing surrounding urban environment has told them what cities are like, people have the basic idea about how a city should look like.
+Consequently, this informs their design approaches when they become the creators of such spaces and they tend to design the city with their common sense.
+Subsequently, as the next generation comes of age within these architecturally guided environments, they inherit this ingrained perception.
+Thus, the cycle perpetuates, with each generation passing on a similar common sense to the next, informed by their lived experiences and the urban landscapes they have known.
+Is there a way to think outside of people's common sense of the city and look at the city in a different way?  Is it possible to look at the city through the lens of culture?.
+It’s interesting that memories are often created in a public environment, yet they are very personal to the owner of the memories.
+Therefore, when people are looking at the same thing, like the David statue, they would make different associations and have different memories of it.
+Observing Istanbul, it becomes apparent that numerous locations within the city were once vibrant melting pots, where individuals from diverse religious and cultural backgrounds coexisted, worked, and forged strong bonds with their neighbors.
+However, the urban transformation prompted by shifting economic, social, and political landscapes has led to the erosion of this rich cultural tapestry.
+As a result, many of these historically significant spaces have been stripped of their original cultural essence and redeveloped into overly commercialized areas.
+Amidst this metamorphosis of the urban landscape, driven by shifting economic, social, and political dynamics, numerous inhabitants of historic districts such as Balat Street, Istiklal Street, and Tarlabasi Boulevard, drifted away from the once vibrant and multifaceted communities that thrived there.
+The former residents may remember the neighborhood as a place where people from different religions and cultures lived and worked side by side, where they had close connections with their neighbors.
+However, the essence of these locales has faded into oblivion, with some losing their cultural significance, and others diminishing in importance, these places are then sort of forgotten.
+Among these three examples, Balat Street is selected for further exploration.
+Several factors have contributed to the decline of the Balat neighborhood, including economic changes, migration patterns, aging infrastructure, gentrification, etc.
+The main reason driving the decline of Istiklal Street is the changing economic and social conditions of the city.
+The main reason for the decline of the Tarlabasi neighborhood is the urban transformation that the area underwent in the 20th century.
+These forgotten spaces left a trace in the memory of Istanbul.
+The memory remains with the seeing of heritage trams, the ancient mosque, the sound of the broadcasting call for prayer, the smell of the sandalwood, the taste of simit bread, and the tactile sensation of walking on the stone-paved roads.
+In terms of the urban landscape, three typologies of spaces are selected in the context of the concept to focus on: rooftop, alley, and underground.
+These three spatial layers intersect and connect with each other throughout the city.
+Istanbul has a rich skyline with a variety of rooftops.
+While roof is public and open to the surroundings, it has a unique sense of privacy as it is not easy to be noticed.
+Alley is the main carrier of various events, it connects the roof and the underground.
+In terms of spatial quality, alley is a linear space surrounded by three sides.
+The underground mainly refers to the underground reservoirs and tunnels that are left over from the history.
+In Istanbul, due to the lack of freshwater resources in the past, large-scale underground cisterns have been built underground in many large public buildings.
+The underground space is enclosed, and it is also a public space with a sense of privacy.
+What's interesting is that the privacy of the underground space is different from the one of the rooftop.
+The information received by the five senses within the three spatial layers shows different emphasis.
+For example, the received information is divided into three categories: 'nature', 'human', and 'mechanical', to analyze the different performances of the five senses in 'roof', 'alley', and 'underground' spaces.
+Through observation, it can be found that the 'mechanical' information on 'roof' is relatively limited, and the part of 'nature' in 'underground' is relatively limited.
+Therefore, the three spatial layers at the same geographic coordinates may have very different sensory experiences.
+This understanding can be used to help selecting useful sensory information in the later design.
+Realizing that memories are collected through the five senses: sound, smell, visual, touch, and taste.
+This project delves deeper into this process and decides to focus the exploration on three specific senses: sound, visual, and touch.
+Use the qualitative notion of memory as a mechanism and sensory data as an instrument to repaint the forgotten spaces in the city by adding a temperament to the existing urban context through the lens of collective recollection.
+In contrast to the conventional design projects, this project is not a proposal, but a design research experiment.
+Instead of working within the confines of a physical context, this project works within the realm of datasets, utilizing machine learning techniques.
+To be more precise, the entire design is situated within latent space formed by encoding the environment through the datasets we collected.
+All the design steps made are based on the latent state encodings of the surroundings.
+It is only in the final stages of the project that the latent state design transitions from this abstract computational realm back into the tangible world, reintegrating the design into its physical context.
+To think outside of people's common sense, it is needed to construct a new understanding that allows the input information to be processed in a customized way.
+Common sense is an individual's interpretation of the world, it is constructed by analyzing and learning from the experiences one has while growing up.
+These experiences can be seen as the dataset that influences one's way of thinking.
+Therefore, Altering this dataset would result in a different perception of the world.
+In the pursuit of looking at the city through the lens of collective recollection, the initial step is to form an understanding of culture for the machine, exclusively using cultural products as the dataset.
+By analyzing and learning from this archive, the machine is acquiring its own form of knowledge about the cultural products of Istanbul.
+In this project, the structure generated from visual autoencoder outputs is populated with the coordinates and transformed according to the sound intensity.
+When something is forgotten, it is easy to understand that some details would be overlooked.
+However, it is not easy to notice that, when forgetting certain things, despite blurring the memory visually, people’s mind always supplants partially of the original memory with something new but is from their existing understanding.
+Therefore, in the first attempt, modeling the process of remembering and forgetting for the visual memory is by visually blurring the object first.
+The next step is to input the image of the object with different blurring extent to the library of similar objects, then search for the most similar images.
+Afterwards, the best matching similar results are input into the library of much more diverse objects, to find the best matching images again to simulate the process of remembering and forgetting.
+To model the remembering and forgetting process from the visual perspective, the simulation is divided into two processes.
+The first part is to simulate visually how people forget.
+For the second part, because when forgetting certain things, despite blurring the memory, people’s mind always supplants partially of the original memory with other new things.
+Input a photo of Istanbul as a memory of Istanbul.
+The first step simulates how to forget by selecting a picture of an everyday object in Istanbul and gradually blurring it.
+Here, take the example of a kebab stall in Istanbul.
+For each image with a different degree of blurring, the most similar images are matched from a dataset of other 'common street vendor' images based on their image characteristics, and the first five results are taken to observe the critical forgetting point.
+The best match is selected from the five images obtained and the first five matches are selected again from another dataset containing all the Istanbul memory fragments we have created.
+The process of constantly updating the images is the process of recalling.
+A kebab photograph with Istanbul characteristics is selected for various degrees of Gaussian blurring to simulate the process of people forgetting.
+The computer is trained to simulate the process of remembering based on blurring images, the most similar images matched from the common street vendor dataset, according to its image feature.
+Human memory loses a lot of details and also fills in with new information.
+These images show the first five most similar images, the degree of similarity decreases from top to bottom.
+Images with different degrees of blurring are matched to indicate how memories are forgotten at different extent.
+It can be found that when the images are blurred to a certain degree, the structural details of the images become simple and similar.
+Therefore, when similar images are extracted using the 'common street vendor' dataset, the point at which the matched similar images all become almost identical is the memory forgetting point.
+The diagrams with the highest similarity from the second step are matched again with the 'Istanbul image library' to further simulate the recalling process.
+The process of forgetting is placed alongside the process of recalling, to visualize how the images are updated to simulate the process of visualizing the absence of information in memory and the reconstruction during the different stages of forgetting.
+However, the manual blurring of vision is subjectively conscious, and the results are not quite as expected.
+During the observation, the computer uses the image structure to search through the dataset, which is not the same as how the authors intuitively think it should pick the results.
+In the first attempt, it was hypothesized that the computer used the image structure to search through the dataset, which was different from expected on how it should pick the results.
+Therefore, the authors try to model the process through a different approach for the second attempt.
+With further research, it can be found that when visual information is being stored in the brain, the brain prefers to capture the visual information that is relevant to the task at hand, and streamlining and compressing the images people see in the end, while some irrelevant features of the visual information are ignored.
+In other words, the memory process of the human brain is more like writing an outline on a blackboard than like a camera capturing every aspect of the image.
+Therefore, in the second attempt, in order to model the process of encoding and information re-extraction in the brain, artificial neural network is used, Autoencoder for particular, for more explorations.
+When people remember visual information, the brain captures visual information relevant to the task at hand and compresses the images seen, while some irrelevant features are ignored.
+While reactivating the memory, the authors interact with the encoding within the neurons.
+For example, the latent walk between the cat and the chair is based on their internal representation.
+A dataset of 1000 images of Istanbul objects are created to train the model.
+The process of autoencoder is used to simulate the process of remembering, forgetting and reactivating.
+In the second attempt at an encoder, the Autoencoder takes input, transforms it into an efficient internal representation, and then outputs "analogues" of the input Dataset.
+In this final implementation the authors interacted with the latent space to process and extract the main features of the constructed Istanbul Museum of Modern Art's artwork collection from the computer's point of view.
+The result is such a different vision of the city between science and art.
+Firstly the auto segmentation of the artwork collection is originated from the fact that when people look at the world through a purely visual perspective, they are scanning the visual image and identifying the boundaries in the image.
+In addition, the original scene is reconstructed using everyday scenes such as rooftops, streets, and undergrounds of forgotten spaces fed into a trained autoencoder to generate a visualization of the results.
+Therefore, a vast collection of art pieces from Istanbul modern art museum is created as the art archive to form the machines’ understanding.
+When people see the world from a pure visual perspective, they are scanning through the visual image and identifying the boundaries within the image.
+Accordingly, Segment Anything Model (SAM) released in earlier 2023 is used to segment the collected art pieces and create a robust dataset composed of 3000 images for training the autoencoder model.
+Take this scene for instance, it is masked through an automated procedure using SAM, then segmented into distinct parts accordingly.
+To optimize the dataset for visual, only the segmented fragments that has the proportion in the image greater than 0.
+Then a brounding box is set up for the segments to finish the dataset preparation.
+From the authors' own interpretation, the mechanism behind the qualitative notion of memory can be iterated through the process of remembering and forgetting.
+To model this process through "visual", an artificial neural network is employed, known as autoencoder.
+Take an example of a street view on a street from Google.
+As when people see the world from a pure visual perspective, they are scanning through the visual image and identifying the boundaries within the image.
+They are encoded to a latent space, then decoded as outputs on the right.
+Finally, these output fragments are pieced together according to their original coordinates to reconstruct the scene through the lens of culture.
+The continuity of sound is utilized to obtain the coordinates of the visual structures and to solidify the visual structures according to the sound intensity.
+Sound is an important part of Alley's memories, especially in Istanbul.
+As people pass through the alley, sounds from a wide variety activities are produced.
+On Istanbul alley, people are chatting and laughing while they are having tea, the tram driver frequently rings the bell, a cat rushes towards a bird, and the car plays pop music loudly and is slowly driving through the crowded traffic.
+So when investigating hearing as part of memory in Istanbul.
+In the original study, YamNet is used to analyze sounds and tried to mimic the process by which these sounds were forgotten.
+To model the process of remembering and forgetting through 'sound', one audio fragment is firstly chosen that was recorded when someone was walking down the street in Istanbul, while there’s the broadcasting of 'call to prayer' going on in the background.
+Then python is used to analyze the audio file and classify the content within this audio fragment, which can be seen as the feature of the audio file.
+When people start to forget something, they somehow still remember the key features of the audio, even the original sound is not as clear as before.
+Therefore, to model the process of remembering and forgetting, the classified matching sound is added one by one into the original sound file accordingly to simulate the forgetting process.
+In the first attempt, it can be found that the process works, but there are several issues that need to be optimized.
+This manual method cannot reflect the characteristics of memory that varies from person to another.
+Secondly, the process of 'reactivating' are taken into consideration and used to define where the 'reactivating' should start.
+Therefore, in the second attempt, the authors aim to solve these two problems.
+In the second attempt, raw sound data on the streets of Istanbul are collected and the AudioSet database is used as a source for newly added audio.
+In order to make this process more randomized, the authors wrote python codes to implement the process of 'randomly screen audio from the AudioSet database - compare audio purity and sort the groups - randomly screen audio again in the optimal group'.
+Then the 'forgotten point’ is selected and the process of 'reactivating' begins.
+In the process of "reactivating memory", the authors analyze the grayscale data of the sound, based on this, they use randomly selected audio from the AudioSet to generate new sounds, and stitch them into a new audio.
+When walking down the alley, the perception of hearing is often acquired subconsciously.
+If people walk on the same alley repeatedly, their impression of the sound of that alley will continue to be superimposed in their subconscious mind.
+This passive input memory is constantly revised according to the changes of the alley, until the most primitive sound memory is completely revised.
+After this point, the authors actively search for similar elements to the original sound and layer them iteratively on top of the critical point sound.
+Through the above steps, a brand-new sound that is very similar to the original sound is obtained.
+A representative piece of audio is selected for more exploration.
+This two-lane wide alley is shared by pedestrians, cats, dogs, cars, and trams.
+The Audio Classification chart shows the intensity of various sound contents in audio at various times.
+This process simulates how the human brain disassembles and recognizes the sound that people actually hear.
+The human brain will associate different contents of sounds with the language system, and classify the sounds to the corresponding labels.
+When listening to sounds unintentionally, in order to improve efficiency, the brain usually will recognize limited types of sounds, then simplify and group similar sounds into one category.
+Write a program to superimpose the gray values of the sounds in the same group, according to the previous results from Word2Vec.
+This is the data that the brain actually stores in memory when one person walks through an alley in Istanbul.
+For example, if people hear different types and tones of language at the same time, they will not remember the specific content, but form the impression of 'this is a noisy alley' instead.
+The original sound represents people's original memory of the sound of the street.
+Add new sound of the first class to the original sound.
+When recalling a memory, the features that stand out the most to the memory owner are recalled first.
+This mechanism allows again reinforcing the impression of the primary feature.
+In the second step, the authors superimpose the audio that is in second place, and so on, until the previous step where the key feature is no longer recognizable.
+Over time, when revisiting this memory, the memory owners are actually recalling what they recalled last time.
+This leads to some changes in the content of each recall.
+Until the most prominent feature of this original memory disappears.
+The grayscale image can provide insights into the temporal and frequency distribution of sound classes in the audio signal.
+When recalling a sound, the first step is to recall what elements are there, and then it’s needed to think about how those elements are arranged.
+Therefore, the next step is to reintroduce the previously classified and stored grayscale data.
+Write a piece of code to extract audio clips that match the target class from AudioSet.
+Next, use the grayscale value data to adjust the volume of the time period corresponding to this audio, so as to obtain new audio that matches the grayscale data.
+This step simulates the process of the human brain from identifying keywords to generating associations and then obtaining the nearest ones.
+As the memory owner cannot fully recall all the details, the memory needs to be reactivated with new audio data.
+Because different people have different impressions of the same sound.
+Combine the previously organized audio to generate a new audio.
+Analyzing this audio, it can be found that its grayscale data and class are very similar to the original input audio, but it sounds completely different.
+The authors refer to this plausible change as the "recalling" of the memory.
+This process of piecing together sound fragments is like picking up fragments of memory.
+Although some details will be lost, it is enough to return to the scene at that time.
+In the second attempt, the process of 'receive-forget-reactivate' is simulated.
+Although the process is relatively complete, there is still a lot of room for development in terms of the results of the 'reactivation' output.
+Because the sounds selected are too random and some are intermittent, our final audio didn't sound artistic and stable.
+For the third attempt, they will try the 'Granular Synthesis' approach to this process.
+Granular Synthesis is a sound processing technique that involves chopping up a piece of audio into teeny-tiny particle fragments called “grains”.
+By micro-sampling these grains, which are typically 5 to 200 milliseconds (ms) long, users can synthesize new sounds and patterns.
+This 5-second sound is the data basis for the later stage.
+As can be seen from the data in the figure, 99% of its content is recognized as 'Speech'.
+Break this sound into very small fragments, but don't change the order of the fragments temporarily.
+It can be found that the analysis diagram has hardly changed from the previous step.
+This step proves that breaking the sound into particles does not affect the quality of the sound too much.
+It can be seen that the generated sound can still be well recognized as 'Speech'.
+In the fourth attempt, the authors focused on modifying the "reactivating process".
+They first analyzed the grayscale data of each category of sound specifically every 0.
+The higher the value of the grayscale data, the higher the "purity" of the sound category at this moment.
+The quality of the sound is identified by setting the numerical interval of the grayscale data.
+Then return the original sound file through Python and cut the corresponding segment that fits the grayscale data interval.
+Through this process, independent high-quality databases can be built for each sound category.
+Combine the previously organized audio to generate a new audio.
+Analyzing this audio, it can be found that its grayscale data and class are very similar to the original input audio, but it sounds completely different.
+The authors refer to this plausible change as the "reactivation" of the memory.
+The sound part of this project using autoencoder in the final Implementation for extracting meaningful cultural representations from ambient city.
+Because in the previous experiments it can be found that the acoustic environment of the city is very complex.
+The process of analyzing and extracting each piece of sound data as before is too inefficient.
+And this kind of straightforward translation is difficult to see the whole picture of sound culture, let alone extract the cultural core that can truly support the project's transition back to the tangible world.
+In order to better study the urban acoustic environment from a cultural perspective, this project uses tens of thousands of music clips to train the low-frequency, mid-frequency and high-frequency models of autoencoder.
+These data are compressed and stored in the latent space of each model.
+For instance, low frequencies might capture the rumble of a subway or a distant drum, while high frequencies could encapsulate the chirping of birds or the chime of a street performer's instrument.
+We will use the high-frequency sound model for the roof, the mid-frequency sound model for the alley, and the low-frequency sound model for the underground.
+When inputting an ambient sound, the sound will get a cultural translation of the surrounding environment as it passes through the latent space.
+The music, in essence, becomes the language with which the city speaks.
+The sound clips of different instruments including jazz, piano, choral vocals, percussion, etc.
+The clips are then converted into spectrograms and recorded as roughly 30,000 512*512 images for training the model.
+By reading information from these images, the autoencoder can identify the characteristics of different sounds.
+Similar to the visual model, autoencoder is also used for the sound model to explore the process of remembering and forgetting through "sound".
+For instance, low frequencies might capture the rumble of a subway or a distant drum, while high frequencies could encapsulate the chirping of birds or the chime of a street performer's instrument.
+This project uses tens of thousands of music clips to train the low-frequency, mid-frequency and high-frequency models of autoencoder.
+These datasets are compressed and stored in the latent space of each model.
+In this project, the high frequency model is used for the rooftop spaces, the medium frequency model is used for the alley spaces, and the low frequency model is used for the underground spaces.
+When feeding an ambient sound into the model, the sound will get a cultural translation of the surrounding environment as it passes through the latent space.
+The music, in essence, becomes the language with which the city speaks.
+Next, the textures generated using the touch model are used to apply details to the visual structures and enhance the architectural proposition physically.
+When simulating the process of remembering and forgetting through 'touch', the first thing to do is to think about how humans normally remember and forget a tactile experience.
+When people are remembering the feeling of touch a piece of texture, they remember the tactile feature that the texture gave.
+When they are forgetting the feeling of touch that same piece of texture, they forget the tactile features gradually.
+Therefore, in the first attempt, the authors model the process of remembering and forgetting by altering the tactile feature of the texture.
+The memory tracks of certain objects are extracted in the history of Istanbul, which have a very Istanbul-specific tactile experience.
+Take the simit bread as an example, its memory can be tracked back to 1900s.
+Remembering something through 'touch' is remembering the original tactile feeling that the texture gives.
+To simulate the process of remembering through 'touch', the original tactile feelings of the simit bread are captured through texts, and 5 tactile feelings are listed as keywords.
+Afterwards, when forgetting the texture through 'touch', people are forgetting the tactile feeling gradually.
+Therefore, the authors remove the tactile feeling keywords one by one.
+As the keywords are deleted, the feeling is gradually forgotten.
+When recalling the memory of the texture, people are actually constructing the texture based on the tactile feeling that left in their minds.
+Therefore, the texture recalled is something similar, but different from the original memory.
+The authors use the remaining keywords as prompt for stable diffusion to generate the new images.
+For the second attempt, the authors aim at incorporating the recalling of the memory into the process.
+Therefore, it is needed to determine the point where the reactivation should start and how to recall the memory through 'touch'.
+Meanwhile, realizing that the remembering and forgetting process can be improved.
+In the first attempt, tactile feelings based on the memory owner’s own understanding of the texture are listed, which is limited and relies too much on their own subjectivity and understanding of the texture.
+To improve the process regarding that, in the second attempt, the authors come up with a method using AI to generate the tactile feelings instead.
+In addition, to simulate the forgetting process in the first attempt, the keywords are deleted in a random order.
+However, when thinking about how human brain forgets things, it can be noticed that, at the start of forgetting process, people always remember all the detail feelings.
+As time goes by, they start to forget the least important details first, then forget the less important details in the memories bit by bit.
+Therefore, in the second attempt, the authors first need to get the tactile feeling keywords of the texture using AI, then rank them according to their importance level.
+Afterwards, the authors delete the keywords according to this order to model the forgetting process.
+To model the remembering and forgetting process through "touch", the stone road texture is taken as an example.
+Remembering something through 'touch' is remembering the tactile feeling it gives.
+The first time this memory being recalled is constructing an understanding to the memory owner based on the tactile feeling it gave.
+Therefore, it's not exactly the same feeling when the memory owner touches it.
+Convert the image into 3D texture using a normal map and blender.
+Take this texture image as input for Google Vision AI to identify the possible contents within the image, then extract the nouns within the contents.
+Pick the top 3 nouns, as they contain higher possibilities compared to other contents.
+Take the top 3 nouns as inputs to ask chatGPT, in this order, to list 3 tactile adjectives related to each noun.
+Then these 9 tactile adjectives can be seen as the tactile feeling that the texture gives and used as prompt later.
+At the end of the remembering process, input the tactile feeling adjectives, together with the word 'texture', as prompt input to Stable Diffusion, to reconstruct the texture.
+Starting to forget the memory is actually forgetting the understanding constructed earlier.
+At the start of the forgetting process, all the detail feelings are remembered.
+As time goes by, the least important details are getting forgotten, and then the less important details get forgotten bit by bit.
+Therefore, when modeling the forgetting process, the tactile adjectives are deleted one by one according to their level of importance, then Stable Diffusion is used to generate the new textures according to the remaining adjectives.
+As the adjectives are deleted, the feeling is gradually forgotten.
+However, if the memory needs to be recalled, the forgetting process should stop when there is only the last key tactile feeling left.
+Since that, this feeling has been completely forgotten and cannot be recalled anymore.
+Therefore, the recalling process starts with the last key tactile feeling that remains.
+At this point, recalling the memory of this tactile feeling is recalling the memory that is being remembered from the last time and constructing the understanding based on the last piece of the memory.
+To model the recalling process, use the last texture image of the forgetting process as the starting point of memory recalling.
+Convert the image into 3D texture using normal map and blender.
+Take this texture image as an input for Google Vision AI to identify the possible contents within the image, then extract the nouns within the contents.
+Pick the top 3 nouns, as they contain higher possibilities comparing to other contents.
+Take the top 3 nouns as inputs to ask chatGPT, in this order, to list 3 tactile adjectives related to each noun.
+Then these 9 tactile adjectives can be seen as the tactile feeling that the texture gives and used as prompt later.
+At the start of the recalling process, input the most important tactile feeling adjective, together with the word 'texture', as prompt to Stable Diffusion, to construct the texture.
+When starting to remember it, the most important feeling is remembered the first, then the less important details are remembered accordingly.
+Therefore, the tactile feeling gradually adds up to complete the recalling process.
+A few textures from the complete "Remembering + Forgetting + Recalling" process are selected to be 3D printed as the physical models, which allows the generated textures to be felt by "touch".

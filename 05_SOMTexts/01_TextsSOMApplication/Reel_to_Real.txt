@@ -1,0 +1,140 @@
+Hagia Sophia was originally buit as a church during the reign of Byzantine Emperor, and coverted into a mosque in 1453.
+Also it served as a museum for several decades, however recently Hagia Sophia has been turned back into a mosque.
+Each era, group and people has its own interpretation of it.
+lt's a place where the past and present exist side by side, where different cultures and religions intermingle, and where the very concept of identity is constantly being challenged and redefined.
+It is this complexity that makes lstanbul such a multifaces place to explore.
+Public urban space has been one of the prominent subjects of photography since the birth of the medium around 1838.
+In spite of that, with the advent of cinema, a shift began to occur.
+Following the Lumière brothers, Auguste and Louis, who held their first private screening of projected motion pictures in 1895 - a milestone often referred to as the birth of cinema - film began to emerge as a new and more effective way to depict urban life.
+The transformation from photography to film as the chosen medium for capturing urban life is seen over time.
+Muhsin Ertuğrul is the person who first featured Istanbul  in his films and in Turkish cinema with the movie "Bir Facia-ı Ask"  (1922).
+In the movie, there are frames formed from Istanbul,  including the Galata bridge.
+As a city, Istanbul is an area suitable for cinema.
+There are many subjects and places where a film can be made in Istanbul.
+The comfort of seeing the past, present and future in film allows the individual to compare Istanbul according to its periods, while ensuring that the city is not forgotten.
+Therefore, Film serves as an exceptionally apt medium for capturing the diverse and complex character of Istanbul.
+It offers the opportunity to delve into the city's rich history, culture, and social fabric, presenting Istanbul's various layers through different lenses and timelines.
+By using cinematic elements such as narrative, cinematography, and sound, filmmakers are able to highlight the contrasts and harmonies that make Istanbul a uniquely layered city.
+All the faces of Istanbul are neither "real" nor "false", they coexist and make up the complete Istanbul.
+Films provide abundant resources to explore the diverse facets of Istanbul,  each film relating to lstanbul has its own perspective, focus, and narrative towards the city.
+As an example, when we focus on  'mosque', it is interpreted in various way in different films, through the time line.
+In some films the mosuqe is the environment background of the story, whereas in other films the mosque is the main subject of their theme.
+Even the same scene can be showcased in diverse style, expressing multiple narrative of Istanbul.
+Spy movies show a reflection of mysterious imagination and enhances the stereotype for Istanbul being a mysterious oriental city.
+In the film scenes, cameras with fast movements focus on characters  with speedy activity , and the surrounding areas are blurred.
+Documentaries tend to record the city objectively and the information is presented in a factual and informative manner.
+The film focus on characteristics of the scene, and tries to make explainations objectively dispite of human affections.
+YouTube vlogs are the real experiences in the city and impact viewers by shaping their perception and impression on them.
+Vlogs are usually made from human's eye shot, and vloggers tend to tell their own stories while showcasing the city to the audiences.
+Arthouse films tell the story of lives, the unique view and sentimental feelings that people grow with city.
+Most of arthouse films concentrate on characters, highlighting their activities with a still scene.
+The cinematic environment provides a temporal and spatial context for the story, creating specific atmospheres and emotional tones for the film.
+Simultaneously, the setting can drive the narrative forward, making it easier for audiences to understand and emotionally resonate with the characters.
+In "From Russia with Love", the bustling and narrow market streets generate a tense ambiance, showcasing the exquisite skills of the secret agent.
+In "Unutma Beni Istanbul", the desolate streets evoke feelings of loneliness, resonating with viewers.
+Objects often carry a wealth of information: they might foreshadow connections between characters, the progression of the story, or embody a certain emotion of a character.
+They could also serve as a clue, revealing shifts in the story's evolution.
+Activities are the primary events that take place over the backdrop.
+In "The Accidental Spy", the backdrop is the static streets of Istanbul, while the action of characters running through forms the plot that takes place over this backdrop.
+The public attributes of the backdrop contrast sharply with the characters' actions.
+Film, as a visual art form, conveys stories, emotions, and information through various technical means.
+Framing, camera movement, and editing are fundamental elements in film production.
+Editing involves selecting, combining, and arranging various shots in a film to create a continuous and cohesive narrative.
+Through effective editing, directors can control the pace of the story, amplify emotions, establish connections, and create meaning.
+Camera movement refers to changes in the camera's position, angle, or focal length during filming.
+Through the movement of the camera, the audience can have a more comprehensive understanding of the characters and objects in the film.
+Camera depth of field: The focus of cameras differ in highlighting different parts of the film scenes.
+Zooming in specific objects requires lens with shorter focus, sometimes lead to a vague of background.
+Contrarily, shoting scenes of large background with long focus lens create a general context, yet influense of objects are much ignored.
+In the whole design process, there are 3 fundamental elements we use to design with: Path, Video and Geometry.
+The original video can be gotten in anywhere in the city with any city scene, then the 4 film version of this urban scene can be searched using the video classification model.
+This diagram basicly shows the relationship between the fundamental elements, how they interact with each other and generate new intergrate one.
+The X-axis represents the steps in the whole process, for enample the first geometry appears at the 4th step.
+The Y-axis represents of the 3 fundamental elements we use in the design.
+The whole process is about finding relationship and build connection between Path, Film clip and Geometry.
+The camera path is made up of the relative positions of the frames in the movie.
+The fps of the film  'L Immortelle' is 30, the image shown is one of the frames about mosque Ortaköy in the duration.
+Through extracting frames from film clip we can get the geometry through reality capture.
+During our field trip, we journeyed across Istanbul, capturing footage of not only iconic landmarks and popular tourist destinations but also everyday scenes that offer valuable insights into the character of the city's spaces.
+These recordings serve as original source material, contributing to a film library where they can be cross-referenced to find corresponding scenes across various genres.
+Travel videos are connected by conjunctive video clips as an film editing for displaying filmic images of Istanbul.
+The editing technique of montage introduces the video narrativity and absurdity.
+Unsupervised learning model is used to seek for the best-matching scenes in four film libraries of the scenes in the original input video, and in this way its four versions are found.
+Image classification model and video classification model are used respectively for scene recognition and activity recognition.
+For videos in which the scenes need highlighting, a still image including the scene is extracted as the original image for the image classification model.
+Take the mosque as an example, as the scene is inputted, figures as mosque are recognized from each video clip.
+After searching every single scene from the video in the library, the algorithm recognizes the best-matching frame that corresponds to the original one, and outputs the video clip with this frame in the exact middle.
+For videos in which the activities need highlighting, the video is directly inputted as the original video for the video classification model.
+Take drinking coffee as an example, an eight-second-long original video is inputted, and one eight-second-long video clip of drinking coffee are extracted from each film libraries.
+The activity contained by input video is combined with a branch of frames, which can be recognized by the algorithm as a feature.
+The algorithm calculates the similarity of each piece that contains the same number of frames of each video in the film library, and outputs the clip that with the highest similarity score.
+All the film clips come from the film database we built before.
+A frame is the basic unit of film or video, which can be understood as individual still images.
+When these frames are played in succession at a certain speed, they create the illusion of motion.
+With the help of 3d reconstruction software, the frames are reorganized on their original path.
+The full-degree viewing contributes to the accuracy of reconstructed model.
+Firstly, 3d reconstructions are made for the four versions of the original videos.
+Next, four groups of landscapes are organized, which are gathered through differences of genres.
+Besides, the corresponding films are displayed as the background to the landscape groups that completes the context.
+The video is an overall display of the four groups of landscapes as well as their filmic context, making it possible to dive into the merging between multiple versions.
+The experiment doesn't include spaces of human scale, yet it provide an inspiration for the following project in terms of understanding the characteristics of different genres and their styles of reconstructing geometry.
+When walk along the camera path, the focus of lens (eyes) is the same as it is in the film.
+By looking at the geometry, viewers share the same spatial experience as watching the film.
+To ensure the viewer's experience is the same as when watching a movie, the relative distance between the camera path and the line of sight focus remains unchanged.
+Therefore, after straightening the observation path, in order to keep the relative distance between the line of sight focus and the corresponding point on the path still, the geometry will shift position as the line of sight focus moves, resulting in overlaps.
+A small experiment is made to merge the four versions from one original video.
+By overlapping the geometries along the path, viewers can see the four films once at a time.
+Among all the frames, key frames are selected with certain time gap, and are used for observing the geometry from different viewing points.
+Segmentation Algorithm help to recognize objects in the image and export them individually.
+Large objects can also be divided into different parts with smaller scales.
+The Nearest Neighbour Algorithm  helps to find similarities between segments, and a Minimum Spinning Tree is built for displaying the relativity of segments.
+With the MST similar segments are grouped together, clearifying the highlighted part of the geometry observed from the viewing points.
+The highlighted parts of geometry from each view point are cropped with the masks of segments.
+The  remainning fragments are the main body that showcase filmic urban space and create activity with viewers.
+The relative positions between fragments and their viewing points (cameras) are fixed.
+In terms of this, to control the positions of cameras is to control the organizations of the fragments.
+By rebuilding the viewing path to a circle or a curve of particular shape, the fragments are reset into structures and form a compact space with stronger context.
+With the consideration of aesthetics, slight adjustments as spinning and rising are operated onto the fragments to provide solid views and comprehensible contexts.
+The Fragments are reconstructed filmic space geometries, and are built through 3d reconstruction software with frames from the film clips.
+The Fragments are the main body for showcasing the characters of city scenes in different versions, with particular spaces they render the city physically as well as create interactions with viewers.
+The fragments are organized in the space in three typical ways: Self-spinning, path-merging and collage.
+As extracting segmented geometries on different viewing point all along the path, the relative positions of viewing points and segments are fixed.
+By blend the path segmented geometries are spinning, showing off different parts with different angles.
+With this method the fragment is organized as a sculptural construction for 360 degree exhibition.
+Path-merging method is applied to four fragments reconstructed from four versions of one original video.
+Viewing points are lied through the time path, on which each group of segmented geometry is located with the order that it appeared on the time path, and placed through the fixed relative positions with viewing points.
+With four groups of segment merged on one line of viewpoints, different versions of one scene can be showcased simultaneously.
+Fragment collage method works without path, and is applied to four fragments reconstructed from four versions of one original video.
+By tiling the geometries together directly, a completed scene is built.
+For instance, the indoor space of mosque is rebuilt with fragments of domes, walls and plaques.
+The relative positions of domes and walls are mostly kept to reserve a new space, which, though differ in scale, conveys a similar yet creative context as the real indoor spaces of mosques.
+The supporting structures coexist with the Fragment for the purposes of supporting and/or constructing spaces.
+By analyzing features of the four film genres, four types of materials are selected to merge their features and emphasize the context of Fragments.
+In order to more intuitively distinguish fragments of films from different genres, different materials for the supporting structures have been utilized to connect and construct the entire "fragment palace" based on the style of each category.
+For spy films, which often feature a lot of gunfights and action, a metallic structure has been used.
+Documentaries often showcase historical landmarks, making marble a suitable material to evoke an elegant atmosphere.
+Vlogs frequently display luxurious city streets, so more transparent, modern materials have been employed.
+Arthouse films often include black-and-white scenes, and their quiet ambiance and color scheme are better matched with concrete materials.
+Paths and furniture provide the viewpoints of observing the Fragment.
+Paths are suggested tour ways of traveling through the palace, and by following them Fragments appear with filmic order, meaning that films are displayed again in geometrical way.
+Besides, by creating own tour ways viewers can create their own orders of observing, which means displaying self-organized films.
+Curtains in furniture help to make up a completed context.
+A wander through the fragment palace is a wander through multiple versions of filmic urban spaces of Istanbul.
+A hammam environment with possible activities playing on the curtain.
+Film clip shown on the curtain is from 'The Accidental Spy'.
+In the Fragment Palace, in addition to the fragments and their supporting structures, as well as the wandering paths, there are also some hanging draperies.
+These draperies are positioned around the wandering path and display movie clips related to the current fragment's constructed scene.
+These movie clips also come from the Istanbul Film Archive.
+In this setting, different films provide different contexts for a hammam environment.
+These "palace furniture" elements enrich the sense of place within the palace.
+The project is located in Sultanahmet Meydanı, a plaza with 40 meters width.
+The site is selected between two obelisks and a pillar-shaped sculpture, and the constructions make up for landscapes between the Fragment Palace.
+The openess and  vacancy of the site contributes to a weak context, which provides a chance for laying the Fragment Palace and reconstruct its contexts.
+The facade showcased the scales of the Fragment Palace and the surronding area.
+Obelisk, as the landmark in the site, is involved as landscape node and supplement of context.
+Besides, the Fragment Palace create harmony in terms of scaling and atomosphere together with the buildings surrond.
+In the Palace, clusters of fragments form an open-concept structure.
+However, these clusters are not randomly arranged within the space; rather, multiple paths guide the flow of people to explore the Palace from the perspective of film projection.
+Simultaneously, depending on the order in which they traverse the paths, each viewer can construct their own film about the Palace.
+Functionally, the Palace is not just a static structure with a sculptural sense; it is also a dynamic entertainment palace that coexists with film.
+The space also provides some seating areas for people to rest.

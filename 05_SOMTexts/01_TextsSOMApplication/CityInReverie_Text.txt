@@ -1,0 +1,674 @@
+Istanbul’s mesmerizing allure and rich cultural heritage are a reflection of its diverse history and captivating charm.
+As the city evolves and grows, it is imperative to preserve its essence and honour its past while creating a promising future.
+Its streets are adorned with a plethora of objects, each holding a unique story that contributes to the city’s vibrant tapestry.
+Every place, to some extent, can be remembered partly because it is unique, but partly because it has affected our consciousness and generated enough association to hold in it our personal worlds.
+Human bodies, serving as a bridge between the tangible and visible realms, play a crucial role in constructing meaning and navigating the urban landscape.
+A constant dialogue exists between the various elements that constitute the city, from objects on the streets to buildings and monuments, all imbued with layers of cultural, social, and historical stories.
+As people interact with these elements, stories are exchanged, shaping the city’s identity and essence.
+Actions, emotions, and existence are intertwined, creating a complex web of relationships.
+Objects possess materiality, but at the same time they are cultural and imagined.
+Cultural meanings encased inside aesthetically shaped material shells, objects trigger intense experience.
+Throughout life’s journey, these objects become tangible markers that hold profound meanings, encapsulating treasured memories and reflecting the values that define individuals.
+They enrich personal narratives, adding depth and significance to one’s experiences.
+In Orhan Pamuk’s “The Museum of Innocence,” Kemal Basmaci, a wealthy Istanbul businessman, falls in love with his distant cousin, Fusun.
+The novel revolves around a physical museum that Kemal creates to display objects associated with his relationship with Fusun.
+These objects provide a glimpse into the characters’ lives, thoughts, and emotions.
+The museum not only pays tribute to Kemal’s relationship with Fusun but also preserves Istanbul’s history.
+Kemal collects objects that represent different periods in Istanbul’s history, creating a microcosm of the city that showcases its social and political changes over time.
+Exploring these objects provides insight into the complexities of human emotion and the importance of cherishing our memories.
+It encourages people to reflect on the value of their own experiences and the memories that make up their lives.
+The objects in the museum symbolize Kemal and Fusun’s relationship, as well as broader themes such as the passage of time and the importance of memory.
+As Istanbul transforms into a modern metropolis, Kemal struggles to reconcile his past with the new realities of the present.
+The objects in the museum represent the preciousness of human experiences, each one with its own story and meaning.
+They are not just static artifacts but fragments of individual experiences and memories.
+It serves as a powerful reminder of the significance of preserving and celebrating our experiences.
+Our encounters with the objects in the city are a way of interacting with the layers of human values instilled in them.
+They are tangible markers, and their presence evokes compelling responses.
+When one attempts to read the city through the objects on the streets, they transform themselves into story-telling devices and represent a collection of shared values and experiences.
+They have the ability to paint a new picture of a place and enhance one’s experiences.
+We settled down for a picnic on a meadow looking out at the view painted in this Antoine Ignace Melling (1763-1831) landscape.
+I exhibit the thermos filled with tea, stuffed grape leaves, boiled eggs and some Meltem bottles to evoke our Sunday excursion that may offer the visitor some relief from the oppressive succession of interior settings, as well as my own agony.
+But neither the reader nor the visitor should on any account think that I could forget my pain even for an instant.
+Every man’s death begins with the death of his father.
+My father’s death had turned all the familiar props of my childhood into objects of immeasurable value, each one the vessel of a lost past.
+Happiness Means Being Close to the One You Love, That’s All.
+The mementos preserve the colors, textures, and delights as they were more faithfully, in fact, than can those who accompanied us through those moments.
+Digital tools were used to understand the street life and elements of Istanbul.
+This includes various media like text, images, 3D models and videos.
+“…one can easily see in an object at once a perfection and an absence of origin, a closure and a brilliance, a transformation of life into matter (matter is much more magical than life), and in a word a silence which belongs to the realm of fairy-tales.
+The objects on the street contributed to how an urban space is perceived and experienced.
+A list of objects that frequently appeared on the streets of Istanbul was put together to further explore.
+Based on the curated object list, ArcGIS was used to find out what its distribution looked like and that in turn, gave a list of coordinates of these objects for further examination.
+The ArcGIS coordinates were used to scrape out Google StreetView images.
+200 images for each category of object were scraped in order to make an initial training dataset to perform object detection.
+Each image was then labelled according to the different objects.
+After training the images, the model was used to test the efficiency of the model.
+A custom object detection model was trained based on a pre-trained model (YOLO).
+The purpose of object detection was to understand the setting of the street objects.
+Object Detection was performed on images scraped from Google Street view using the coordinates of the objects.
+The images shown are the results of the custom trained detection model.
+“There is no such thing as chance in a text.
+Any text is the result of a repertoire, on conscious and unconscious levels, and can only be decoded by someone privy to the same repertoire.
+Cities are not mere material entities; they become a text, inviting different interpretations and experiences, turning the urban landscape into a multidimensional book read by pedestrians and residents who construct their own meanings and narratives within it, continuously in time.
+Each individual engages with the city from their unique perspective, constructing their space in the city with multiple meanings.
+Books allow for more in-depth exploration of topics and themes, and often includes vivid descriptions of scenes and environments, allowing readers to envision the scenes and objects described in the text.
+Objects within a scene can be used to convey important information about the setting or the characters themselves.
+Different books related to Istanbul are scraped from various websites.
+Each book is converted into a text file  and is broken down into sentences.
+The list of objects and spaces is used as keywords to search through the corpus of sentences to obtain the best matching sentences in accordance to the similarity scores.
+Each sentence is then labelled as an individual text file corresponding to the keyword.
+The objects and space list are used as keywords and using the Skip-gram Word2Vec model, sentences that included both, the keyword and the most similar word to it are extracted and vectorised.
+The TF-IDF model is used to extract features from these vectors and is used to train a Self-Organising Map (SOM).
+SOM is used as a medium to find connections among clusters of objects and spaces.
+All the cells represented on the SOM are the Best Matching Unit (BMU).
+Each cell also contains several other sentences that are closely associated to the BMU.
+“I paint objects as I think them, not as I see them”-Pablo Picasso.
+Multiple 3D models are scraped out from SketchFab that gave a wide range of iterations of the same object.
+The 3D model is used as an input and the processed text is used as the prompt in Stable diffusion.
+Since these texts are in the context of Istanbul, the renders closely reflected iterations of the object that made them Istanbul-specific.
+A model of the object is used as an input in Blender, and rendered using Stable Diffusion.
+A single sentence from the sentences extracted is used as a prompt and “not Istanbul” is used as a negative prompt in the rendereing process.
+In an old picture each of these three rooms had a separate balcony, and today there is only one long balcony.
+They had a fine house on the Bosphorus, with a large balcony, almost covered by Virginian creeper, and here, going by in the steamer, I had often caught a glimpse of their heads as they sat on the balcony at work or afternoon tea.
+One day I stood on the balcony overlooking the Bosphorus, watching the tackmg of a ship that had caught the evening sun in its white sails Closer and closer it came, until I recognised the pale, sphinx-like face m the stern.
+High in the little balcony of the minaret he stands like a pre- centor leading the hymns of the people ; and the temple in which he has taken his stand is limited by the starry dome of heaven alone.
+At  the same  level  is  also  a  little  garden,  held  up  by  a  massive retaining  wall,  and  a  balcony  with  a  rail  of  perforated marble  once  gave  a  magnificent  view  over  the  harbour.
+They  point  out  to  you  the  place whence  the  cock  crew,  and  the  balcony  from  which  Pilate showed  Jesus  to  the  assembled  multitude,  or  rather  the facsimiles  of  those  spots.
+The commencement exercises of the college were held in the large audience-rooms and the adjoining balcony overlooking the Bosphorus.
+A species of balcony, near this relic, commands an uninterrupted view of a face of Christ in the act of benediction, in mosaic work, on the ceiling of the half-dome, over the place where the altar formerly stood.
+Between  this  balcony  and  the  Sultan’s  box  a  richly latticed  window,  covering  a  space  no  larger  than  the cosey  baignoires  common  to  every  French  theatre,  hung like  a  shimmering,  semi-transparent  curtain.
+Yet the arched and ivied windows high above, and the long line of jutting marble columns, once supporting an airy balcony, indicate that it was the abode of pleasure as well as of fear.
+Prompt : In an old picture each of these three rooms had a separate balcony, and today there is only one long balcony.
+On the hill, above the shore-line, the Seraglio, Sera, and its square tower picturesquely situated amongst the trees, with the Baghdad Kiosk and Column of Claudius to the l.
+; and the Chinili Kiosk, Musewm of Antiquities, and the Serai Walls running from Yali Kiosk Kapusi to the Marmara.
+A staircase in the garden led to a subterranean kiosk under the New Kiosk, and also connected with little iron gates by which a hasty escape could be made to the Marmora.
+The kiosk, or New Pavihon as it is sometimes called, was built by a French architect in the middle of the nineteenth century.
+At the mouth of the stream is the Imperial Kiosk, built by the Valideh Sultan, mother of Abdul Mejid, in the same style as the Dolmabaghcheh Palace, on the site of an earlier kiosk erected by Mahmftid JI.
+Placed the harbour at a distance of 104 feet to the south of Indjili Kiosk, consistently with his opinion that the ruins discovered behind that Kiosk marked the site of the Palace of the Bucoleon.
+Between the Sinan Agha Kiosk and the boathouses was another kiosk, not at the water’s edge, but built high on the Seraglio wall, which at this point was a considerable way inland.
+While an orangery was planted on the lower level behind the kiosk of Mustafa Pasha, extending northward as far as the rectangular sunken marble pool.
+Internally the kiosk is divided into three main rooms leading out of each other, the wall kiosk itself being part of the centre.
+For instance, when facing the kiosk from the marble terrace we see that the arcade to the right, or garden side.
+The 2nd Gate, Yali Kiosk Ka- pust, is named after the handsome kiosk of Suleiman the Magnificent.
+In an old picture each of these three rooms had a separate balcony, and today there is only one long balcony.
+They had a fine house on the Bosphorus, with a large balcony, almost covered by Virginian creeper, and here, going by in the steamer, I had often caught a glimpse of their heads as they sat on the balcony at work or afternoon tea.
+One day I stood on the balcony overlooking the Bosphorus, watching the tackmg of a ship that had caught the evening sun in its white sails Closer and closer it came, until I recognised the pale, sphinx-like face m the stern.
+High in the little balcony of the minaret he stands like a precentor leading the hymns of the people.
+At  the same  level  is  also  a  little  garden,  held  up  by  a  massive retaining  wall,  and  a  balcony  with  a  rail  of  perforated marble  once  gave  a  magnificent  view  over  the  harbour.
+They  point  out  to  you  the  place whence  the  cock  crew,  and  the  balcony  from  which  Pilate showed  Jesus  to  the  assembled  multitude.
+The commencement exercises of the college were held in the large audience-rooms and the adjoining balcony overlooking the Bosphorus.
+A species of balcony, near this relic, commands an uninterrupted view of a face of Christ in the act of benediction, in mosaic work, on the ceiling of the half-dome, over the place where the altar formerly stood.
+Between  this  balcony  and  the  Sultan’s  box  a  richly latticed  window,  covering  a  space  no  larger  than  the cosey  baignoires  common  to  every  French  theatre,  hung like  a  shimmering,  semi-transparent  curtain.
+Yet the arched and ivied windows high above, and the long line of jutting marble columns, once supporting an airy balcony, indicate that it was the abode of pleasure as well as of fear.
+When you have bathed there a few times, when you have walked along the shore in the quiet evening under a parasol, breathing the exquisite air, when you have dined in a cafe of old Phalerum built out into the sea.
+Along  the  middle  of  the  street, these  Oriental  fingers  and  arms  carried  no  weightier burden  than  a  parasol  or  an  infant.
+Holding his  musket  all  on  one  side,  (as  they  always  do),  and when  bored,  tossing  it  about  as  a  school-girl  does  her parasol.
+This was all the more distressing to three or four European ladies who were there, because etiquette forbids the opening of a parasol in presence of the Sultan.
+The high colour that distinguishes each individual, and the parasol which inevitably accompanies street dress.
+Three or four ladies who happened to be there because etiquette forbids opening a parasol in the presence of the Sultan.
+Despite the heat of the sun, these boats have no awning ; for that convenience would not only retard their progress, but be contrary to the Turkish etiquette, which restricts its use to the caiques of the Sultan only; but it is usual to carry a parasol.
+The Chinese representation on plates, that I almost expected to see Sing-sing parasol pecping over it.
+Light up all this with a brilliant sunshine, place here and there in these streets filled with light a few long-veiled senoras who hold their open fan against their cheek by way of a parasol.
+Thesun is implacable and oppressive, despite her parasol, and it is awful tohave to spend so much time sitting upright when her natural propensityis for the horizontal.
+Objects within a space have the power to shape its character, and when they are strategically placed and thoughtfully curated, they can greatly enhance the emotional response of those who inhabit it.
+Incorporating dynamic and interactive elements into these objects not only introduces an element of surprise but also elevates users’ experiences by infusing the space with a sense of excitement and novelty.
+They go beyond their utilitarian purposes to embody cultural significance and collective memory.
+“The city is a theater, a stage where we perform our lives.
+Objects and experiences become the props and scripts we use to create our own individual dramas.
+The heart of the project lies in the curation of these objects.
+By recognizing their current attributes and associations, they are reimagined with additional semantic information.
+This curated approach allows to design spaces that resonate with the essence of Istanbul and its people.
+The aim is to transform ordinary, mundane spaces into vibrant living rooms of the city, that narrate stories of its people.
+Objects cease to be passive observers of the city; they become active participants in shaping how people experience and perceive their surroundings.
+General Asim Gundu Street in Kadikoy, located on the Asian side of Istanbul is considered as the site of exploration.
+The street is reconstructed using photogrammetry by using a walking tour video as the source for extracting 3D information.
+The reconstructed mesh is taken as the base and associated with the space in real-time.
+The custom-trained object detection model is used to detect objects that exist in the location.
+Objects like fountain, storefront, awning, bench and balcony are detected.
+The SOM trained on objects and space list is used as a design tool.
+The cells containing fountain as the keyword are narrowed down and the most connected cell ( lightest colored cell ) is chosen.
+All associated sentences within the cell are further processed using PCA.
+Based on the links established in PCA, sentences are put together to form a combined sentence, which is used as a prompt.
+The Salon of Murat III, built by Sinan, has fine tiled walls, a handsome fountain and a large hearth.
+[1] So at the center of the külliye he placed his mosque and tomb, known today as Fatih Camii.
+[2] The mosque was founded in the early sixteenth century by Ahi Çelebi ibni Kemal, chief physician at the hospital of Fatih’s külliye.
+Different 3D Models of fountain are scraped from Sketchfab which are used to re-imagine it using Stable Diffusion on Blender.
+The resulting images are combined to generate a single image, using Image Mixer Model, that emphasizes the important features of each version of the fountain.
+Shap-E , a model that generates 3D objects using text and images as input, is used to produce a point cloud model and a mesh model based on the combined image.
+This process is carried out for all other objects in the location.
+The reimagined versions of the objects are inserted back into the street.
+Using Segment - Anything, Image segmentation is carried out to understand the extent of the influence of the objects.
+The objects along with the segments are looked into individually.
+Key Rooms open to the public Areas closed to the public Exit Entrance The Salon of Murat III, built by Sinan, has fine tiled walls, a handsome fountain and a large hearth.
+To find it we take the street which leads off from the far left-hand corner of the square and follow it to the first intersection.
+Beyond the hamam, Itfaiye Caddesi widens and becomes quite pretty, with a double row of plane trees shading the open stalls of a colourful fruit and vegetable market.
+Meanwhile Selim had hardly stirred from the Harem, most of his excursions having been to Edirne to inspect the mosque complex that he was building there.
+If we follow this street past the intersection and two blocks farther along, we will come on our left to an ancient mosque at the corner of Kadı Çeşme and Şebnem Sokaks.
+The Salon of Murat III, built by Sinan, has fine tiled walls, a handsome fountain and a large hearth.
+Delicious kebab restaurant in the hills above the Bosphorus Bridge.
+The soup master placed his enormous hands on the table and sank his weight onto the stool.
+Indulge in flavorful kebabs at Mabeyin, perched in the scenic hills above the Bosphorus Bridge, while immersing yourself in the allure of ancient mosques, architectural marvels, vibrant markets, and the mesmerizing sight of the fountain, as Selim’s gaze remains fixed on the grand mosque complex taking shape in Edirne from the serenity of the Harem.
+The key sentences in the cells surrounding the object cell in the SOM are processed to craft the prompt for the segment and visualized through Stable Diffusion.
+Key Rooms open to the public Areas closed to the public Exit Entrance The Salon of Murat III, built by Sinan, has fine tiled walls, a handsome fountain and a large hearth.
+Indulge in flavorful kebabs at Mabeyin, perched in the scenic hills above the Bosphorus Bridge, while immersing yourself in the allure of ancient mosques, architectural marvels, vibrant markets, and the mesmerizing sight of the fountain, as Selim’s gaze remains fixed on the grand mosque complex taking shape in Edirne from the serenity of the Harem.
+The corner store became a modern apartment building with sea-facing balconies.
+The Koca Sinan Pasa tomb complex features a tea garden.
+Disconnecting the phone, he arranges his meal on a Qajar table tray.
+Bazaar Quarter, across Bıleycıler Sokak, houses Koca Sinan Pasa tomb complex with a tea garden courtyard.
+Tractor tires and exhaust pipes mark the access road from Athens-to-Sparta highway.
+I stroll out with the baby, observing scratched floors and bougainvillea vines.
+Passing the mosque courtyard, a gray striped cat picks at a chicken bone in an alley.
+Nalan finds an empty coffee cup, extinguishes her cigarette, and stirs sugar noisily.
+Fanis examines the coffee cups for jealousy bubbles, finding none in Kosmas’s, but one persistent bead near the edge of his own glass.
+Ka watched the snow on the awning, brewed coffee with perfect foam, and fought off an aggressor with garbage.
+The mosaic of archangel Gabriel remained, while Michael’s feathers vanished.
+The mosque had nearby buildings, including an imaret, medrese, and mektep.
+A ferry and a funicular connected Taksim Square and Kabatas.
+She shared white chocolate from a crystal candy bowl on the table.
+One house became the library of the Çelik Gülersoy Foundation, housing Istanbul’s Ottoman-era treasures.
+Sharing stories with each other, the objects exist as a collective symphony and paint vibrant worlds for those who look deeper.
+Objects have the power to change the context around them when one lets them start to communicate their stories.
+These peculiarities contribute to the individuality and character of each object, making them distinct entities within the social space.
+They also have their own intrinsic qualities and relations with other objects, influencing and affecting one another without losing their distinct identities.
+The process is carried out again for another location on the same street.
+The mosque had nearby buildings, including an imaret, medrese, and mektep.
+A ferry and a funicular connected Taksim Square and Kabatas.
+She shared white chocolate from a crystal candy bowl on the table.
+One house became the library of the Çelik Gülersoy Foundation, housing Istanbul’s Ottoman-era treasures.
+Ka watched the snow on the awning, brewed coffee with perfect foam, and fought off an aggressor with garbage.
+The mosaic of archangel Gabriel remained, while Michael’s feathers vanished.
+Exhausted, Kosmas made Nescafé and sat on his oriel window bench.
+Fanis ordered tea and cookies, settled at a wooden table under an awning with the shop’s name.
+Seats shared, cat food and kitten houses seen on the road.
+House near Bosphorus with a steep cobblestone alley to the sea.
+Embrace the allure of Istanbul’s historic sites, from the Vespa carefully chained under a brown awning, to owning a cafe bar , where you can savor coffee in the courtyard, while discovering the tranquility of a fountain-washed courtyard at Rustem Bey’s residence, and indulging in bags of fish food near the teal-green pools by the charming kiosk, all while admiring the holiness of Mosque and the architectural magnificence of Mosque.
+The mosque had nearby buildings, including an imaret, medrese, and mektep.
+A ferry and a funicular connected Taksim Square and Kabatas.
+She shared white chocolate from a crystal candy bowl on the table.
+One house became the library of the Çelik Gülersoy Foundation, housing Istanbul’s Ottoman-era treasures.
+Ka watched the snow on the awning, brewed coffee with perfect foam, and fought off an aggressor with garbage.
+The mosaic of archangel Gabriel remained, while Michael’s feathers vanished.
+Exhausted, Kosmas made Nescafé and sat on his oriel window bench.
+Fanis ordered tea and cookies, settled at a wooden table under an awning with the shop’s name.
+Seats shared, cat food and kitten houses seen on the road.
+House near Bosphorus with a steep cobblestone alley to the sea.
+He brought untouched paper like a mother cat with a wounded bird.
+London is used as the city to experiment with this concept and used the objects of London and reimagined them through the text of Istanbul.
+Objects that are relevant to the streets of London are considered and are reimagined using Istanbul texts to bring in the essence of Istanbul in London.
+In the delightful garden courtyard of the mosque, two huge plane trees stand tall on a platform.
+As Fanis sat on the bench of the oriel, he enjoyed a sip of his coffee.
+Nearby, a stall displayed an arrangement of goods, including bread and other treats.
+Under the shade of a great linden tree and an awning adorned with whimsical brown letters spelling “Neighbor’s House,” Fanis found a peaceful spot at a small wooden table.
+As he savored his coffee, he observed the bustling atmosphere around him, with artisans selling their wares and people going about their day.
+The Osmanlı Bankası Müzesi entrance displays “Bankalar Cad 35–37, Karaköy” in bold letters.
+The museum opened in 2012, accompanied by The Innocence of Objects catalogue.
+Inside, dim light shimmers through the steam, from small glass windows in the hararet’s dome.
+The night sky lacked the brilliant lights of flares and rockets, leaving only shadows.
+The metro, tram, and shuttle bus operate from 6 am to midnight.
+Gavriela, displeased with the overflowing ashtray on the table, scuffled toward her armchair.
+Fascinated, I held my mother’s hand and gazed at the captivating displays in shop windows.
+Yashim sifted through the salad leaves while George the Greek emerged from his stall.
+As the steam train arrived at Erzurum station, I challenged and defeated him in our quiz game.
+Ka found a seat by the window at a nearby table.
+In the delightful garden courtyard of the mosque, two huge plane trees stand tall on a platform.
+As Fanis sat on the bench of the oriel, he enjoyed a sip of his coffee.
+Nearby, a stall displayed an arrangement of goods, including bread and other treats.
+Under the shade of a great linden tree and an awning adorned with whimsical brown letters spelling “Neighbor’s House,” Fanis found a peaceful spot at a small wooden table.
+As he savored his coffee, he observed the bustling atmosphere around him, with artisans selling their wares and people going about their day.
+The Osmanlı Bankası Müzesi entrance displays “Bankalar Cad 35–37, Karaköy” in bold letters.
+The museum opened in 2012, accompanied by The Innocence of Objects catalogue.
+Inside, dim light shimmers through the steam, from small glass windows in the hararet’s dome.
+The night sky lacked the brilliant lights of flares and rockets, leaving only shadows.
+The metro, tram, and shuttle bus operate from 6 am to midnight.
+Gavriela, displeased with the overflowing ashtray on the table, scuffled toward her armchair.
+Fascinated, I held my mother’s hand and gazed at the captivating displays in shop windows.
+Yashim sifted through the salad leaves while George the Greek emerged from his stall.
+As the steam train arrived at Erzurum station, I challenged and defeated him in our quiz game.
+Ka found a seat by the window at a nearby table.
+Between the reservoir tank and the wall of the türbe garden a gate in the east wall of the precinct leads out into a side street, Dede Efendi Caddesi.
+Having placed his order, Fanis collected his tray of tea and cookies, stepped onto the patio that stretched between the north wall of the bakery and an abandoned Ottoman cemetery, and settled down at a small wooden table shaded by a great linden tree and an awning with the shop’s name, printed in whimsical brown letters.
+Nalan found an empty coffee cup and stubbed out the cigarette.
+I do not recall being even once able to make a call from a PTT phone booth during that entire period.
+She removed the pot from the burner as soon as the coffee started to swell, filled the cups halfway, and then returned the pot to the flame in order to create a perfect foam.
+Through the window, I glimpsed bicycle shops near a station.
+Grisly photos adorned the table: car wrecks, deaths, and a snapped cable disaster.
+The soup master settled on a stool, hands on the table.
+The Karaköy bridge’s clocks deceived, toying with time and hope.
+The ice on the windows gave an orange glow to the light from the streetlamps and the surrounding houses.
+He made his way along the train track, past the snow-covered silo that loomed overhead like a great white cloud, and was soon back inside the station.
+On the day of the “grand opening” the people at the clinic had given a showy reception for a bunch of selected guests, and had lined up all the bouquets and garlands right outside at the entrance so that the passersby on the street could be informed about the occasion as well.
+Just as dogs approach those most scared of them or as the hair falls in the soup of the one person at a dining table who will be most disgusted by it, so the cockroach Cemal had long lost track of had decided to enter none other than Hygiene Tijen’s field of vision.
+Holding my mother’s hand, I would gaze in fascination at the displays in the shops: through the steamy window of the orist, at the cyclamens that looked like red wolves; in the window of the shoe shop, at the barely visible wires that suspended the high-heeled shoes in midair; and at the laundry where my father sent his shirts to be starched and ironed.
+Ka sat down at a table next to the window.
+Between the reservoir tank and the wall of the türbe garden a gate in the east wall of the precinct leads out into a side street, Dede Efendi Caddesi.
+Having placed his order, Fanis collected his tray of tea and cookies, stepped onto the patio that stretched between the north wall of the bakery and an abandoned Ottoman cemetery, and settled down at a small wooden table shaded by a great linden tree and an awning with the shop’s name, printed in whimsical brown letters.
+Nalan found an empty coffee cup and stubbed out the cigarette.
+I do not recall being even once able to make a call from a PTT phone booth during that entire period.
+She removed the pot from the burner as soon as the coffee started to swell, filled the cups halfway, and then returned the pot to the flame in order to create a perfect foam.
+The ice on the windows gave an orange glow to the light from the streetlamps and the surrounding houses.
+He made his way along the train track, past the snow-covered silo that loomed overhead like a great white cloud, and was soon back inside the station.
+On the day of the “grand opening” the people at the clinic had given a showy reception for a bunch of selected guests, and had lined up all the bouquets and garlands right outside at the entrance so that the passersby on the street could be informed about the occasion as well.
+Just as dogs approach those most scared of them or as the hair falls in the soup of the one person at a dining table who will be most disgusted by it, so the cockroach Cemal had long lost track of had decided to enter none other than Hygiene Tijen’s field of vision.
+This project embarks on a transformative journey, shaping urban environments that transcend the ordinary and resonate with the intrinsic essence of objects, thereby creating cities that are both aesthetically enchanting and deeply meaningful to the people who inhabit them.
+Indeed, as I see it now, the way it appeared to my child’s eye, it is not a building, but it is quite dissolved and distributed inside me: here, one room, there another, and here a bit of corridor which, however, does not connect the two rooms, but is conserved in me in fragmentary form.
+Thus, the whole thing is scattered about inside me, the rooms, the stairs that descend with such ceremonious slowness, others, narrow cages that mounted in a spiral movement in the darkness of which we advance like the blood in our veins.
+Meanwhile Selim had hardly stirred from the Harem, most of his excursions having been to Edirne to inspect the mosque complex that he was building there.
+To find it we take the street which leads off from the far left-hand corner of the square and follow it to the first intersection.
+On a night midway across the Atlantic, the ship’s captain invited her to sit at his table for dinner.
+The Salon of Murat III, built by Sinan, has fine tiled walls, a handsome fountain and a large hearth.
+Simone de Beauvoir sits in a high chair at one end of the table.
+Near the teal-green pools, we purchase bags of fish food at a kiosk.
+The soup master placed his enormous hands on the table and sank his weight onto the stool.
+ON A SUNNY Thursday at the beginning of June-nine days before the engagement party-my father and I had a long lunch together at Abdullah Efendi’s restaurant in Emirgân, and I knew even then that I would never forget it.
+Delicious kebab restaurant in the hills above the Bosphorus Bridge.
+Near the teal-green pools, we purchase bags of fish food at a kiosk.
+Simone de Beauvoir sits in a high chair at one end of the table.
+[2] ON A SUNNY Thursday at the beginning of June-nine days before the engagement party-my father and I had a long lunch together at Abdullah Efendi’s restaurant in Emirgân, and I knew even then that I would never forget it.
+[3] Delicious kebab restaurant in the hills above the Bosphorus Bridge.
+[4] The soup master placed his enormous hands on the table and sank his weight onto the stool.
+[5] The Salon of Murat III, built by Sinan, has fine tiled walls, a handsome fountain and a large hearth.
+[6] To find it we take the street which leads off from the far left-hand corner of the square and follow it to the first intersection.
+[7] Meanwhile Selim had hardly stirred from the Harem, most of his excursions having been to Edirne to inspect the mosque complex that he was building there.
+[8] On a night midway across the Atlantic, the ship’s captain invited her to sit at his table for dinner.
+The combined sentences are processed to get  adjectives and phrases that curated a list of keywords which are used as prompts.
+The kiosk, adorned by teal-green pools and echoing with the memory of galleys’ salute, stands as a historical jewel in the vibrant tapestry of Istanbul.
+The prompt crafted is used as input in Point-E Model which helps to generate a point cloud, which is further processed to produce a mesh  of the object.
+The mesh model is used as a base and fed into Mid-journey to visualise the mesh in Istanbul style.
+The model is texturised using elements that stood out in the text.
+Near the teal-green pools, we purchase bags of fish food at a kiosk.
+[1] Simone de Beauvoir sits in a high chair at one end of the table.
+[2] ON A SUNNY Thursday at the beginning of June-nine days before the engagement party-my father and I had a long lunch together at Abdullah Efendi’s restaurant in Emirgân, and I knew even then that I would never forget it.
+[3] Delicious kebab restaurant in the hills above the Bosphorus Bridge.
+[4] The soup master placed his enormous hands on the table and sank his weight onto the stool.
+[5] The Salon of Murat III, built by Sinan, has fine tiled walls, a handsome fountain and a large hearth.
+[6] To find it we take the street which leads off from the far left-hand corner of the square and follow it to the first intersection.
+[7] Meanwhile Selim had hardly stirred from the Harem, most of his excursions having been to Edirne to inspect the mosque complex that he was building there.
+[8] On a night midway across the Atlantic, the ship’s captain invited her to sit at his table for dinner.
+The kiosk, adorned by teal-green pools and echoing with the memory of galleys’ salute, stands as a historical jewel in the vibrant tapestry of Istanbul.
+Fanis collected his tray of tea and cookies, stepped onto the patio that stretched between the north wall of the bakery, and settled down at a small wooden table shaded by a great linden tree and an awning with the shop’s name— Neighbor’s House—printed in whimsical brown letters.
+[1] He turned up a series of wall lights above the reading bench and knelt on a cushion.
+[3] Sharing seats, you can also see cat food and small houses made for kittens on the road.
+[4] A fat boy pedaled his bicycle in their direction.
+[5] Kosmas made himself a Nescafé and collapsed onto the padded bench of his oriel window.
+[6] All buses and ferry boats were packed at this time of the day.
+[7] A purpose-built glass cube at the back has a small café menu, while an upstairs restaurant offers cuisine with Italian and Turkish inﬂuences.
+[8] There are agriculture and carpentry stalls, laden with nails, stalls with generous and redolent bags of spice and saffron, stalls with brass tea sets, coffee grinders, kebab skewers, stalls selling priceless carpets inveigled for a song from the naive peasants of Anatolia, stalls selling hand-sewn silks, waistcoats, hats and socks, and stalls selling seductively beautiful musical instruments, geometrically inlaid, which Turks can play by instinct, but which Westerners find impossible, even in theory.
+awning on a north wall with shops name printed in whimsical brown letters, wall lights, geometrically inlaid.
+[1] Alternatively, take the E10 bus to Kadıköy and the ferry across the Bosphorus to Eminönü (for Sultanahmet).
+[2] The predecessor of this modern bridge across the Golden Horn was an iron pontoon structure of 1909–12.
+[3] Daphne slumped in her chair and folded her arms over her chest.
+[4] Galip sat down on the chair next to the door and the woman sat down on the stool next to her dressing table, a close relative of the one in the film.
+[5] This was a picture that showed the forced friendship between the cat and the mouse from Kelile and Dimne.
+[6] They had lunch at a fish restaurant underneath Galata Bridge, Kay facing the old city, the postcard view of slender minarets and domes behind a kite tail of circling birds.
+[7] When I told him, “Yes, that’s all,” he went to the door with the superior air of a master who caught an apprentice stealing; he brought in a roll of paper untouched by the rain, and placed it before us three artists like a mother cat bringing a wounded bird to her kittens.
+[8] He also condemned the immoral performances put on in the theatre.
+shade beneath the door’s awning, modern , iron pontoon structure, next to the door, postcard view, slender minarets, domes, kite tail.
+He walked up and down the street twice; at one end was a group of children throwing snowballs, at the other a huge illuminated movie billboard showing a nondescript woman whose eyes had been blacked out, blinded.
+[1] Mosaic glass tiles in ochre and jade green are embedded into an arched doorway from which one of Bekir’s engraved lanterns hangs.
+[2] Types of Shop antiques shop bakery bank bookshop butcher’s cake shop chemist’s/ pharmacy fishmonger’s greengrocer’s grocery hairdresser’s leather shop market/bazaar newsstand post office shoe shop stationer’s supermarket tailor travel agency.
+[3] way, boarding the next A schedule of sailing ferry that comes along times is on view at each İDO logo with the same ticket; but pier and a copy of the if you make a second stop you timetable (tarife) can usually will need to buy a new ticket to be bought at the ticket booth.
+[4] Kosmas carefully chained the Vespa to one of the posts supporting the building’s brown awning.
+[5] Nevertheless, the proportions of the building are so good and the garden in the courtyard so attractive that the general effect is still quite charming.
+[6] A three-tiered ablutions fountain stands beneath the central dome of this monumental mosque, which was erected in 1396.
+[7] Eyüp Mosque The holiest mosque in Istanbul stands beside the tomb of Eyüp Ensari, a companion of the Prophet Mohammed.
+[8] Near the teal-green pools, we purchase bags of fish food at a kiosk.
+brown awning, mosaic glass tiles, ochre and jade green, teal-green pools.
+I look at the scratched floors in the hallway and at the bougainvillea vines and can’t decide if they are pulling the balcony down or holding it up.
+[1] Sometimes one of the big crows that lived in the back garden would perch on the balcony to watch us in silence.
+[2] To dispel the drowsiness she had made a cup of coffee for herself and now she stirred the sugar, clinking her spoon noisily against the porcelain.
+[3] Nalan found an empty coffee cup and stubbed out the cigarette.
+[4] On the billboard in front of the National Theater a poster announced that evening’s performance.
+[5] Part of the luxurious Çırağan Palace Hotel Kempinski, the Laledan restaurant serves great brunches in a fairy-tale setting.
+[6] The small grocery store at the corner is gone, replaced by a modern two-story apartment building with balconies turned toward the sea.
+[7] Situated across Bıleycıler Sokak, an alleyway off Çorlulu Ali Paşa Courtyard, is the Koca Sinan Paşa tomb complex, the courtyard of which is another tea garden.
+[8] Today one is greeted on the access road just off the Athens-toSparta highway by a display of outsize tractor-tyres and exhaust pipes.
+balcony with scratched floors, bougainvillea vines, balcony, empty coffee cup, cigarette, poster, evenings performance, luxurious , great brunches, fairy-tale setting, small corner, modern two-story apartment building, balconies, exhaust pipes.
+Do you think an owl might ever perch on the balcony.
+[1] I just wanted to make those who dump their garbage here feel uncomfortable.
+[2] Three years before his death, on the day he moved out of the City-of-Hearts Apartments and into his new home in a back street, Mehmet Sabit Bey (Grandfather) had marked the occasion by sitting down in his wobbly old armchair, which no longer faced the window as in the old apartment but still faced the radio, which still sat on the same heavy table.
+[3] Anyway, she nearly faints with shame, and she starts to cry and flap her hands about, and then the mullah sits and thinks for a while, and he strokes his long white beard, and he drinks a cup of mint tea with a medium amount of sugar in it, and he smokes his narghile, and then he strokes his long white beard again, and then he goes out for a piss, and then he drinks another cup of tea, and then he gets a little polished stick that he keeps for the purpose, and he puts it up inside his turban and scratches his head with it, and then he says, ‘Daughter, I think I know what your dream means,’ and she says, ‘Mullah Efendi, take away my shame,’ and he says, ‘Daughter, it’s like this.
+[4] It has recently been rebuilt and now houses a restaurant and café.
+[5] I should cross the road and head downhill toward the university.
+[6] Then they crossed their legs and sipped their coffee and began to argue about which outsiders to admit and which to exclude.
+balcony, uncomfortable, wobbly old armchair, window, old apartment, long white beard, polished stick, turban, head, dream, restaurant.
+Kosmas made himself a Nescafé and collapsed onto the padded bench of his oriel window.
+[1] Fanis collected his tray of tea and cookies, stepped onto the patio that stretched between the north wall of the bakery and an abandoned Ottoman cemetery, and settled down at a small wooden table shaded by a great linden tree and an awning with the shop’s name— Neighbor’s House—printed in whimsical brown letters.
+[2] Sharing seats, you can also see cat food and small houses made for kittens on the road.
+[3] A fat boy pedaled his bicycle in their direction.
+[4] Through the window I could see a string of bicycle and car repair shops.
+[5] The detective assigned to the snack bar subjected the granny’s cinnamon drink to yet another examination, and he also inspected the glasses, the heat-resistant holder on the crooked handles of the tin ladles, the change box, a number of rusty holes, and the employees’ hands for any sign of a strange powder.
+[6] When the shredded chicken pudding and coffee arrived, Fanis examined both cups for jealousy bubbles: Kosmas’s had none, whereas his had a persistent bead near the edge of the glass.
+[7] Sabotage hated cars, all buses and ferry boats were packed at this time of the day – he was painfully dependent on them.
+[8] A purpose-built glass cube at the back has a small café menu, while an upstairs restaurant offers cuisine with Italian and Turkish inﬂuences.
+bench near an oriel window, with a tray of tea and cookies on the patio of a  north wall bakery Sharing seats, with granny’s cinnamon drink, Italian and Turkish influences.
+The mosque was formerly surrounded by the usual buildings of the külliye: an imaret, a medrese and a mektep.
+[1] A useful modern funicular links Taksim Square with the ferry terminal at Kabataş from 6am to midnight.
+[2] She then offered white chocolate from the crystal candy bowl on the coffee table.
+[3] One of the houses is now the library of the Çelik Gülersoy Foundation, an extraordinary collection of books, maps, engravings and paintings of Istanbul in Ottoman times.
+[4] He lay experimentally upon the stone bench inside each tomb, searching among those resting places for the couch that would be most comfortable.
+mysterious stone bench, elegant, extraordinary, introspective, somber, exploring comfortable resting places.
+On the billboard in front of the National Theater a poster announced that evening’s performance.
+[1] Nalan found an empty coffee cup and stubbed out the cigarette.
+[2] It was here, that a master fortune-teller, taking a liking to her, taught her the ancient art of tasseography – divination based on reading tea leaves, wine dregs, coffee grounds.
+[3] Now, on this cool, sunny December morning, father and son were sipping their coffee at the breakfast table.
+[4] The couple sat side by side on cushions on the floor, quietly eating breakfast from the low table.
+[5] They are of three kinds: the şadırvan is a large fountain in the middle of a mosque courtyard used for ritual ablutions; the sebil, often at the corner of the outer wall of a mosque precinct, is a monumental domed building with three or more grilled openings in the façade; the çeşme is also sometimes monumental, often in the middle of a public square, but more frequently it is a simple carved marble slab with a spigot in the centre and a basin below.
+[6] He disconnected the telephone—lest he be bothered by his habitual prank caller —and arranged his cutlery, a plate of leftover meatballs and pilaf, and glass of lemon juice on a nineteenth-century Qajar table tray.
+[7] The Laledan restaurant serves great brunches in a fairy-tale setting.
+[8] I look at the scratched floors in the hallway and at the bougainvillea vines and can’t decide if they are pulling the balcony down or holding it up.
+billboard on the outer wall, in a public square, simple carved marble slab, fairy-tale setting, hallway, bougainvillea vines.
+The carpet seller in Cappadocia who, at lunchtime, puts his carpets aside and thinks nothing of offering his customers lamb stew his mother made.
+[1] As he cleared away into sacks, he sang: “I wanted to go fishing And I needed a mouse for bait So I sent out the cat to fetch one.
+[2] Through the window I could see a string of bicycle and car repair shops.
+[3] This snack bar was so central one inevitably passed it about ten times a day but mostly because the sharbat was the only new thing in Kars.
+[4] He walked up and down the street twice; at one end was a group of children throwing snowballs, at the other a huge illuminated movie billboard showing a nondescript woman whose eyes had been blacked out, blinded.
+[5] Mosaic glass tiles in ochre and jade green are embedded into an arched doorway from which one of Bekir’s engraved lanterns hangs.
+[6] FINE cities containing not a single dilapidated public building, a solitary weed-strewn building lot, or even a crumbling palazzo; but a great city must have them all, for decay, too, is a sign of life.
+[7] Way, boarding the next A schedule of sailing ferry that comes along times is on view at each İDO logo with the same ticket; but if you make a second stop you timetable can usually will need to buy a new ticket to be bought at the ticket booth.
+[8] Kosmas carefully chained the Vespa to one of the posts supporting the building’s brown awning.
+illuminated movie billboard, carpets aside, mosaic glass tiles, ochre and jade green, brown awning.
+ALTAT TOMATOES, a large billboard proclaimed, amid gardens, fields of sunflowers, little farmhouses.
+[1] Adm charge Küçüksu, with two rivers known to the Ottomans as the “Sweet Waters of Asia”, was a playground for the Imperial court.
+[2] Then I turned around and entered the stationery store.
+[3] But the seraskier evidently preferred the indignity of sitting on the divan in his trousers to the unpleasant exposure of the central table.
+[4] Different sections can be reached by metro, tram, train or bus; but to see their whole length you will need to take a taxi or dolmuş along the main road that runs outside them.
+[5] On the west face of the same pier we find one of the most elaborate of the many graffiti which are carved on the walls of Haghia Sophia; it shows a medieval galleon under full sail.
+[6] The ablutions are today performed at water taps beneath the graceful arcade which forms part of the north and south walls of the courtyard.
+[7] Main Bathroom The walls of this bathroom are revetted in finest Egyptian alabaster, while the taps are solid silver.
+He ushered her up a plank and into a wooden crate placed on a cart.
+[1] The kebabs in this informal gourmet restaurant are wonderful – the salads and meze are worth a look, too.
+[2] The mosque interior is essentially a square room covered by a large dome resting on four circular arches in the walls.
+[3] I sat down at my table and took out my calculator.
+[4] Latife Tekin  writes of these gecekondu in her novel Tales from the Garbage Hills: One winter night, on a hill where the huge refuse bins came daily and dumped the city’s waste, eight shelters were set up by lantern light near the garbage heaps.
+[5] But the seraskier evidently preferred the indignity of sitting on the divan in his trousers to the unpleasant exposure of the central table.
+[6] Then I turned around and entered the stationery store.
+a wooden crate placed on a cart, sitting down at a table, huge refuse bins being dumped, a person preferring to sit on a divan.
+I could have paid for a clapquack to look after the girls in the cathouse.
+[1] BOAZIÇI KÖPRÜSÜ is the seventh longest suspension bridge in the world.
+[2] On one end of the rectangular dining room table there was, as usual, especially prepared for the lesson ahead of time: coconut cake slices lined up on two porcelain plates with white napkins on the side, the notebook with the white lilies spread open, pencil tips carefully sharpened, the ashtray laid ready.
+[3] After the others had gone, Fanis helped carry the tea and coffee things into the kitchen.
+[4] Füsun drew away from the window and taking five steps floated to the table like a feather to sit across from me in silence.
+[5] The waiter took their selections directly from the tray and set them on the table.
+cathouse, seventh longest suspension bridge, world, rectangular dining room table, coconut cake slices, notebook, white lilies, pencil tips.
+Galip sat down on the chair next to the door and the woman sat down on the stool next to her dressing table, a close relative of the one in the film.
+[1] Daphne slumped in her chair and folded her arms over her chest.
+[2] A purpose-built glass cube at the back has a small café menu, while an upstairs restaurant offers cuisine with Italian and Turkish inﬂuences.
+[3] Sabotage hated cars, but since he was claustrophobic and couldn’t stand being jammed inside a packed bus or ferry boat – and all buses and ferry boats were packed at this time of the day – he was painfully dependent on them.
+[4] When the shredded chicken pudding and coffee arrived, Fanis examined both cups for jealousy bubbles: Kosmas’s had none, whereas his had a persistent bead near the edge of the glass.
+[5] Up we go through the quiet streets, past a group of men leaving the courtyard of the mosque and a gray striped cat that scurries into an alley to pick at a chicken bone.
+[6] That same day, I put the baby in her pram and walked out of the house into the bustling street.
+[7] This was a picture that showed the forced friendship between the cat and the mouse from Kelile and Dimne.
+[8] Daphne stepped into the shade beneath the door’s awning.
+italian-turkish chair next to the door, stool next to her dressing table, shade beneath the door’s awning, pudding and coffee, glass cube at the back, small café menu.
+Nalan found an empty coffee cup and stubbed out the cigarette.
+[1] To dispel the drowsiness she had made a cup of coffee for herself and now she stirred the sugar, clinking her spoon noisily against the porcelain.
+[2] Before he launched into the third section of The Mystery of the Letters and the Loss of Mystery, Galip went to make himself a cup of strong coffee.
+[3] It was here, in the shadow of Mount Sannine, in between successive hospital visits, that a master fortune-teller, taking a liking to her, taught her the ancient art of tasseography – divination based on reading tea leaves, wine dregs, coffee grounds.
+[4] Now, on this cool, sunny December morning, father and son were sipping their coffee at the breakfast table.
+[5] On the billboard in front of the National Theater a poster announced that evening’s performance.
+[6] Part of the luxurious Çırağan Palace Hotel Kempinski, the Laledan restaurant serves great brunches in a fairy-tale setting.
+[7] I look at the scratched floors in the hallway and at the bougainvillea vines and can’t decide if they are pulling the balcony down or holding it up.
+[8] Sometimes one of the big crows that lived in the back garden would perch on the balcony to watch us in silence.
+coffee kiosk with a cup of strong coffee, breakfast near National Theater looking at the poster for the evening’s performance at luxurious Çıragan Palace Hotel Kempinski, bougainvillea vines, balcony.
+She’d have to drink that third cup of coffee despite her heartburn, go shopping with the girls even if she preferred to do so alone, go picnicking at Kilyos with her old neighbors even though she really didn’t feel comfortable wearing a swimsuit.
+[1] It occupies the site, however, of a mosque by Sinan which was founded by Süleyman the Magnificent in memory of his hunchback son Cihangir, who died in 1553 from sorrow, it is said, for his half-brother, the unfortunate Prince Mustafa, whom their father had just executed; Prince Cihangir was buried in the türbe of his other brother Mehmet at the Şehzade.
+[2] It was not just that the searing pains of love would disappear the moment I sat down at the same table with Füsun; I would immediately forget that until just now, this same pain had brought me to thoughts of suicide.
+[3] To get away from the cars and the crowds that had gathered to sip tea and to get a better view of this, one of the last remaining Ottoman mansions, as it went up in ames, we walked to the other end of Rumelihisarı.
+[5] He went off to the toilet where he’d met with Necip two days earlier and walked into the same stall.
+[6] The türbe communicates by a large grilled opening to a small wooden mosque with a baroque wooden dome.
+kiosk with a third cup of coffee, shopping, girls, alone, picnicking, Kilyos, old neighbors, comfortable, large grilled opening, small wooden, baroque wooden dome.
+Then the crystal glasses inside would shudder along with the porcelain and the silver sugar bowls, the liqueur sets, the never-used coffee cups, the old clock, the silver lighter that no longer worked, the little glass vase with the spiraling floral pattern whose likeness one could see displayed on the buffet of any middle-class family in the city, other assorted ornamental pieces, and finally the buffet’s glass shelves.
+[1] It is also the location for a thriving r Rahmi M Koç Museum bar and café scene, which in the summer especially is the hub of Istanbul’s nightlife.
+[2] At seven that evening I ushered the first guests to the bar we had set up-it was fully stocked with all the requisite foreign liquor bought under the counter from the city’s delicatessens-and like a good host, I offered them drinks.
+[4] According to information from the research team working on Büyük Valide Han (Burak Sevingen and Zerrin úren), the little white hut behind the graffiti houses a textile dyeing workshop.
+[5] Dragging himself out of the bed, he lurched into the courtyard and splashed water on his face from the fountain.
+[6] At the corner to the left is the handsome sebil with five grilled openings; behind it is the really palatial türbe of the founder, looking rather like a small mosque.
+bustling bar and café scene set in a vibrant summer night, a person standing at a counter fully stocked with foreign liquor, a corner with a handsome sebil, graffiti, textile dyeing workshop.
+FINE cities containing not a single dilapidated public building, a solitary weed-strewn building lot, or even a crumbling palazzo; but a great city must have them all, for decay, too, is a sign of life.
+[1] Way, boarding the next A schedule of sailing ferry that comes along times is on view at each İDO logo with the same ticket; if you make a second stop you timetable can usually will need to buy a new ticket to be bought at the ticket booth.
+[2] Kosmas carefully chained the Vespa to one of the posts supporting the building’s brown awning.
+[3] The cells of the medrese surround two sides of the courtyard in which stands a şadırvan in the midst of a pretty garden.
+[4] A three-tiered ablutions fountain stands beneath the central dome of this monumental mosque.
+[5] Eyüp Mosque The holiest mosque in Istanbul stands beside the tomb of Eyüp Ensari.
+[6] Every time I read about the unpainted, darkened, dilapidated wooden houses, the broken-down fountains, the neglected tombs with their fallen-in roofs, I am amazed that these places I saw while riding around in my father’s car a hundred years.
+[7] In the bustling mahalle, a beautiful eyvan adorned with intricate opus sectile mosaics welcomed visitors to the mosque’s serene courtyard.
+[8] Çorlulu Ali Paşa Medresesi Enjoy a cup of coffee or opt for a light meal in the courtyard of this atmospheric, Sinan-designed café, located near Haghia Sophia.
+Dragging himself out of the bed, he lurched into the courtyard and splashed water on his face from the fountain.
+[1] Then the crystal glasses inside would shudder along with the porcelain and the silver sugar bowls, the liqueur sets, the never-used coffee cups, the old clock, the silver lighter that no longer worked, the little glass vase with the spiraling floral pattern whose likeness one could see displayed on the buffet of any middle-class family in the city, other assorted ornamental pieces, and finally the buffet’s glass shelves.
+[24] According to information from the research team working on Büyük Valide Han, the little white hut behind the graffiti houses a textile dyeing workshop.
+[3] After searching for a long time and carefully weighing all the choices , his choice was the flat on the garden floor of an ashen, fairly old and unkempt but obviously once grandiose apartment building, located in a rather lively neighbourhood on a well-trodden street that opened up to a busy avenue.
+[4] A man was talking to Black from the trees in the empty yard on the far side of the street.
+[5] This mosque complex is the best example in the city of the Baroque style, of which its architect, Mehmet Tahir Ağa, was the greatest exponent.
+[6] At the corner to the left is the handsome sebil with five grilled openings; behind it is the really palatial türbe of the founder, looking rather like a small mosque.
+splashing water on his face from a fountain, crystal glasses shuddering along with porcelain, assorted ornamental pieces, a little white hut behind graffiti, a flat on a garden floor, a well-trodden street.
+Latife Tekin  writes of these gecekondu in her novel Tales from the Garbage Hills: One winter night, on a hill where the huge refuse bins came daily and dumped the city’s waste, eight shelters were set up by lantern light near the garbage heaps.
+[1] He ushered her up a plank and into a wooden crate placed on a cart.
+[2] I sat down at my table and took out my calculator.
+[3] As for the young Kurds who’d attended the meeting at the Hotel Asia, they’d all abandoned the city, though at the Sundayevening cockfight I saw Zahide’s grandson the gambler, who greeted me warmly and shared some of his raki, which we sipped surreptitiously out of tea glasses.
+[4] He glanced over at the library table where Saffet was sitting.
+[5] The marble panel of calligraphy around the interior of the mosque is particularly fine, as is the pair of sebils (kiosks for serving drinks) outside.
+[6] But the seraskier evidently preferred the indignity of sitting on the divan in his trousers to the unpleasant exposure of the central table.
+huge refuse bins, tea glasses, kiosks for serving drinks, a seraskier sitting on a divan with trousers.
+He eats his fill and then ends up in his kingdom: the garbage dump.
+[1] At the corner to the left is the handsome sebil with five grilled openings; behind it is the really palatial türbe of the founder, looking rather like a small mosque.
+[2] On the left side of the square is the entrance to the mosque complex of Koca Mustafa Paşa, after whom the avenue and the surrounding neighbourhood are named.
+[3] Today there is virtually nothing left in Eminönü to remind us of the colourful Latin period in the city’s history, other than a few medieval Venetian basements underlying some of the old hans in the market quarter around Rüstem Paşa Camii.
+[4] After daybreak, as the garbage truck, its bins clattering against its sides, made its way down the street below, Galip went back to take a closer look at Celâl’s photograph in Fatih.
+[5] A deceptively named restaurant serving not Spanish cuisine, but Turkish and Kurdish specials, backed by a well-stocked bar.
+[6] The final triumph of the iconodules was celebrated in Haghia Sophia on Easter Sunday 867, when Photius unveiled a huge mosaic in the apse of the church depicting the Virgin and Child.
+[7] The white marble türbe of Pertevniyal stands behind her mosque.
+garbage, a palatial türbe, medieval Venetian basements, clattering bins on a street, a huge mosaic of the Virgin and Child, the white marble türbe, city’s history, photograph.
+The couple sat side by side on cushions on the floor, quietly eating breakfast from the low table.
+[1] Now, on this cool, sunny December morning, father and son were sipping their coffee at the breakfast table.
+[2] It was here, that a master fortune-teller, taking a liking to her, taught her the ancient art of tasseography – divination based on reading tea leaves, wine dregs, coffee grounds.
+[3] Ben remembered the winding road up to Berchtesgaden, lined with jeeps, a new tourist attraction, GIs hunting for souvenirs while the executives stood at Hitler’s vast picture window.
+[4] Karma Half an hour later, they all sat around the dining table.
+[5] Or the carpet seller in Cappadocia who, at lunchtime, puts his carpets aside and thinks nothing of offering his customers lamb stew his mother made.
+[6] After setting the plate and a jar of honey on the table and urging us to sit and eat, she makes tea, pours it into three tulip-shaped glasses, and sends her husband down the steps toward the road, his dog trailing behind him.
+[7] “Addicts Alley” is so called because the cafés here once sold opium and hashish as well as coffee and tea.
+[8] This snack bar was so central one inevitably passed it about ten times a day but mostly because the sharbat was the only new thing in Kars.
+a low table, a sunny morning, tea leaves, wine dregs, and coffee grounds,  plate of honey and tea on a table, tulip-shaped glasses of tea, families enjoying a fad.
+The waiter took their selections directly from the tray and set them on the table.
+[1] Street markets are abundant in Istanbul and buying from them reduces the amount of packaging – try the Wednesday market (Çarşamba Pazarı) in Fatih.
+[2] The sheikh discreetly taps a dervish on the shoulder.
+[3] I could have paid for a clapquack to look after the girls in the cathouse.
+[4] Füsun drew away from the window and taking five steps floated to the table like a feather to sit across from me in silence.
+[6] At seven that evening I ushered the first guests to the bar we had set up-it was fully stocked with all the requisite foreign liquor bought under the counter from the city’s delicatessens-and like a good host, I offered them drinks.
+[7] The mosque itself, known as Fatih Camii,6 was the centre of a vast külliye, or complex of religious and philanthropic institutions of one kind or another, which together constituted a vakif, or pious foundation.
+table bustling street markets in Istanbul with reduced packaging, a table like a feather, an Orient bar in the evening with stocked drinks, a mosque complex, religious.
+I sat down at my table and took out my calculator.
+[1] He pointed to the paper and pens sitting on the table.
+[2] Like a sailor who wakes up in a storm and instinctively rushes to his sails, I jumped still half asleep from my bed, closing the open windows one by one and turning off a table lamp that had been left burning, and after doing all this I sat in the kitchen and drank a glass of water as the kitchen’s overhead light swayed in the wind howling through the cracks.
+[3] As for the young Kurds who’d attended the meeting at the Hotel Asia, they’d all abandoned the city, though at the Sundayevening cockfight I saw Zahide’s grandson the gambler, who greeted me warmly and shared some of his raki, which we sipped surreptitiously out of tea glasses.
+[4] He glanced over at the library table where Saffet was sitting.
+[5] Latife Tekin writes of these gecekondu in her novel Tales from the Garbage Hills: One winter night, on a hill where the huge refuse bins came daily and dumped the city’s waste, eight shelters were set up by lantern light near the garbage heaps.
+[6] He ushered her up a plank and into a wooden crate placed on a cart.
+a cozy corner with tea glasses and a library table, a cart with a wooden crate and a plank, wooden shelters by lantern light, ornate, decorative, unique, exquisite.
+Mehmet Sabit Bey had marked the occasion by sitting down in his wobbly old armchair, which no longer faced the window as in the old apartment but still faced the radio, which still sat on the same heavy table.
+[1] On the other side of the mosque complex is the Nuruosmaniye Gate.
+[2] Once a week, my grandmother would go to Beyoğlu to lunch alone at a famous and expensive restaurant called Aptullah Efendi, and afterward she would complain at great length about everything she’d eaten.
+[3] The white marble türbe of Pertevniyal stands behind her mosque.
+[4] The final triumph of the iconodules was celebrated in Haghia Sophia on Easter Sunday, when Photius unveiled a huge mosaic in the apse of the church depicting the Virgin and Child.
+[5] The mullah sits and thinks for a while, and he strokes his long white beard, and he drinks a cup of mint tea with a medium amount of sugar in it, and he smokes his narghile, and then he strokes his long white beard again, and then he goes out for a piss, and then he drinks another cup of tea, and then he gets a little polished stick that he keeps for the purpose, and he puts it up inside his turban and scratches his head with it.
+[6] Do you think an owl might ever perch on the balcony.
+[7] I just wanted to make those who dump their garbage here feel uncomfortable.
+wobbly old, old apartment, heavy table, other side, mosque complex, final triumph, iconodules, Easter Sunday, huge mosaic,  little polished stick.
+Entering, we find ourselves in a large and pleasant courtyard in front of the tekke with a garden on the right side and a picturesque graveyard on the other.
+[1] And besides, whenever one is in this area one is always tempted to relax at a café or restaurant on the lower level of the bridge.
+[2] A useful modern funicular links Taksim Square with the ferry terminal at Kabataş from 6am to midnight.
+[3] She then offered white chocolate from the crystal candy bowl on the coffee table.
+[4] We avoid his gaze and take a table on the opposite side of the room, but he picks up his cup and saucer and comes over.
+[5] He lay experimentally upon the stone bench inside each tomb, searching among those resting places for the couch that would be most comfortable.
+a crystal candy bowl on a coffee table, a folding table set for breakfast, large and pleasant courtyard with a picturesque graveyard, a cafe or restaurant on the lower level of the bridge.
+The soup master placed his enormous hands on the table and sank his weight onto the stool.
+[1] Delicious kebab restaurant in the hills above the Bosphorus Bridge.
+[2] Placing a cup of coffee on a little table, Selva said, “Why’s that.
+[3] It is also the location for a thriving r Rahmi M Koç Museum bar and café scene, which in the summer especially is the hub of Istanbul’s nightlife.
+[4] If we follow this street past the intersection and two blocks farther along, we will come on our left to an ancient mosque at the corner of Kadı Çeşme and Şebnem Sokaks.
+[5] Key Rooms open to the public Areas closed to the public Exit Entrance KEY 1 The Salon of Murat III, built by Sinan , has fine tiled walls, a handsome fountain and a large hearth.
+fine tiled walls, a bustling cafe scene in the summer, art nouveau kiosk captured in the midst of a thriving city atmospherea crystal candy bowl on a coffee table, a folding table set for breakfast.
+Füsun drew away from the window and taking five steps floated to the table like a feather to sit across from me in silence.
+[1] The waiter took their selections directly from the tray and set them on the table.
+[2] I could have paid for a clapquack to look after the girls in the cathouse.
+[3] Sweet Nymph and Old Hag After the others had gone, Fanis helped carry the tea and coffee things into the kitchen.
+[4] According to information from the research team working on Büyük Valide Han (Burak Sevingen and Zerrin úren), the little white hut behind the graffiti houses a textile dyeing workshop.
+[6] At seven that evening I ushered the first guests to the bar we had set up-it was fully stocked with all the requisite foreign liquor bought under the counter from the city’s delicatessens-and like a good host, I offered them drinks.
+Scene capturing Orient Bar ambiance, little white hut housing dyeing workshop, graffiti-adorned houses adding character, city’s delicatessens essence.
+The designed objects, which serve as embodiments of the textual descriptions, are then thoughtfully placed back into the street, each carrying the essence of the original text.
+The goal is to create a seamless integration of historical and contemporary narratives within the existing urban fabric.
+In order to showcase the stories and to allow interaction with objects, Uskudar square, located in the center of Uskudar district , on the Anatolian side of Istanbul, is considered a site for installation.
+Having close proximity to transportation hubs and several tourist spots, the site receives a lot of visitors and is a popular location.
+The square often hosts cultural events, festivals, and activities that bring the community together.
+The combination of historical architecture, waterfront views, and the bustling local atmosphere gives Uskudar Square a unique charm and character that appeals to a wide range of people.
+Walls are introduced as a part of the installation based on the clusters formed and the position of the objects.
+The narrative of the objects is visualised by creating a scene on the wall that combines sentences of cells around the object and the cells that the wall run along.
+The combined sentences are further processed and are used as prompts in stable diffusion to derive the initial scene.
+Entrance to Koca Mustafa Paşa mosque complex on square’s left.
+Corner: sebil with grilled openings, palatial türbe resembling small mosque.
+He drags from bed, splashes water, crystal glasses shudder, porcelain, silver items, ornamental pieces tremble.
+Haghia Sophia’s iconodule triumph, mosaic of Virgin and Child unveiled.
+Koca Mustafa Paşa mosque entrance, sebil with grilled openings, palatial türbe.
+The initial scene is segmented using Segment - Anything model to generate individual segments for objects, highlighting the influence that one object can have in relation to the scene.
+To show the influence of an object in the scene, the sentences within the cells are processed based on PCA and the closely related sentences are used as a prompt and the scene is reimagined.
+Dragging himself out of the bed, he lurched into the courtyard and splashed water on his face from the fountain.
+He placed the oil lamp just beside the cushion upon which I was seated, in a way that would illuminate my face.
+As I lifted the oil lamp from the floor, we both stared meaningfully at the cushion upon which I’d flattened him.
+Do something so drastic that they’ll never again want to dump garbage here.
+Amid gardens, fields of sunflowers, little farmhouses, the garbage dump.
+Then the crystal glasses inside would shudder along with the porcelain and the silver sugar bowls, the liqueur sets, the never-used coffee cups, the old clock, the silver lighter that no longer worked, the little glass vase with the spiraling floral pattern whose likeness one could see displayed on the buffet of any middle-class family in the city, other assorted ornamental pieces, and finally the buffet’s glass shelves.
+Entrance to Koca Mustafa Paşa mosque complex on square’s left.
+Corner: sebil with grilled openings, palatial türbe resembling small mosque.
+He drags from bed, splashes water, crystal glasses shudder, porcelain, silver items, ornamental pieces tremble.
+Haghia Sophia’s iconodule triumph, mosaic of Virgin and Child unveiled.
+Koca Mustafa Paşa mosque entrance, sebil with grilled openings, palatial türbe.
+Table_184 : Spices and herbs are still sold there today, but the bazaar now deals in a wide variety of commodities, which makes it perhaps the most popular market in the city.
+On Wednesdays there is a colourful market in the surrounding streets.
+sitting down in his wobbly old armchair, which no longer faced the window as in the old apartment but still faced the radio, which still sat on the same heavy table.
+Balcony_02 : Do you think an owl might ever perch on the balcony.
+So the voice can be talking about this and that while you’re walking underneath a subway bridge in 2005.
+Some idea of its extraordinary size and traffic, however, came to light in 2004, when a plan to lay a subway line and station through Yenikapı was abruptly halted by the discovery of numerous shipwrecks buried in the earth.
+At the corner to the left is the handsome sebil with five grilled openings.
+Then the crystal glasses inside would shudder along with the porcelain and the silver sugar bowls, the liqueur sets, the never-used coffee cups, the old clock, the silver lighter that no longer worked, the little glass vase with the spiraling floral pattern whose likeness one could see displayed on the buffet of any middle-class family in the city, other assorted ornamental pieces, and finally the buffet’s glass shelves.
+We had set up-it was fully stocked with all the requisite foreign liquor bought under the counter from the city’s delicatessens.
+Coffee_97 : Near the teal-green pools, we purchase bags of fish food at a kiosk.
+According to information from the research team working on Büyük Valide Han, the little white hut behind the graffiti houses a textile dyeing workshop.
+I ushered the first guests to the bar we had set up-it was fully stocked with all the requisite foreign liquor bought under the counter from the city’s delicatessens.
+After the others had gone, Fanis helped carry the tea and coffee things into the kitchen.
+The waiter took their selections directly from the tray and set them on the table.
+I could have paid for a clapquack to look after the girls in the cathouse.
+Table_257 : Füsun drew away from the window and taking five steps floated to the table like a feather to sit across from me in silence.
+In the bustling ambiance, a waiter delicately arranged their chosen items from the tray onto the awaiting table.
+To embrace eco-consciousness, consider exploring the lively street markets of Istanbul, such as Çarşamba Pazarı in Fatih, where packaging waste is minimized.
+Contemplating options, the notion of hiring a clapquack to care for the girls in the cathouse was entertained.
+Graceful as a feather, Füsun drew away from the window and glided to the table, wordlessly seating herself across from me.
+Immerse yourself in the atmosphere of the Orient bar’s unique charm.
+As evening descended, I warmly welcomed guests to our well-stocked bar, discreetly furnished by local delicatessens.
+The heart of a religious and philanthropic complex, Fatih Camii, the mosque, stood as a testament to its pious foundation.
+Boasting impressive stature, BOAZIÇI KÖPRÜSÜ claimed its position as the world’s seventh longest suspension bridge.
+As the rectangular dining table was readied for the lesson, meticulously prepared elements awaited – coconut cake slices, porcelain plates, sharp pencils, and a notebook adorned with white lilies.
+Cathouse_00 : I considered hiring a clapquack for the cathouse.
+On one end of the rectangular dining room table, there were coconut cake slices, a notebook with white lilies, pencils, and an ashtray—all prepared for the upcoming lesson.
+Füsun gracefully approached the table, sitting across from me in silence.
+The waiter placed their choices from the tray onto the table.
+Table_18 : The waiter placed their choices from the tray onto the table.
+Füsun left the window, gliding to the table to sit across from me.
+I led guests to a stocked bar in our setup, offering drinks.
+Navigate left from the square’s far corner to the first junction.
+Selim, devoted to Edirne’s mosque complex, rarely left the Harem.
+Two blocks ahead, an ancient mosque at Kadı Çeşme and Şebnem Sokaks’ crossroads.
+Rahmi M Koç Museum thrives—a bar, café, and summer night hub.
+Table_237 : The soup master placed his enormous hands on the table and sank his weight onto the stool.
+The Salon of Murat III, built by Sinan, has fine tiled walls, a handsome fountain and a large hearth.
+Delicious kebab restaurant in the hills above the Bosphorus Bridge.
+Nalan grabbed an empty coffee cup and extinguished her cigarette.
+She stirred sugar into her own cup of coffee to fight off drowsiness, clinking the spoon against the porcelain.
+Galip prepared a strong cup of coffee before delving into the third section of “The Mystery of the Letters and the Loss of Mystery.
+” A master fortune-teller taught her the ancient art of tasseography – divining from tea leaves, wine dregs, and coffee grounds.
+The morning was cool and sunny as father and son enjoyed their coffee at the breakfast table.
+A poster for the evening’s performance adorned the billboard in front of the National Theater.
+The Laledan restaurant within the luxurious Çırağan Palace Hotel Kempinski offered enchanting brunches.
+Examining scratched floors and bougainvillea vines, it’s uncertain if they uphold or weigh down the balcony.
+A crow from the garden would sometimes perch silently on the balcony.
+Ensuring security, he disconnected the telephone and set up his meal and utensils on a Qajar table tray.
+Through the window, a row of bicycle and car repair shops was visible.
+Before diving into the third section of his work, Galip made himself a strong cup of coffee.
+Coffee_02 : Nalan found an empty coffee cup and extinguished her cigarette.
+To combat drowsiness, she stirred sugar into her self-made coffee, the spoon clinking on porcelain.
+On a cool December morning, father and son enjoyed coffee at the breakfast table.
+I gaze at scratched hallway floors and bougainvillea vines, undecided whether they pull the balcony down or hold it up.
+Billboard_00 : Scratched floors, bougainvillea vines: pull or uphold the balcony? Water sources: şadırvan in mosque courtyard, sebil at mosque’s corner, çeşme, a simple carved marble slab.
+The main bathroom features walls revetted in Egyptian alabaster and solid silver taps.
+The seraskier chooses sitting on the divan in trousers over the exposed central table.
+Fine marble calligraphy and sebils adorn the mosque’s interior and exterior.
+Billboard_03 : Amid gardens, fields of sunflowers, and quaint farmhouses, a large billboard proudly proclaims “ALTAT TOMATOES.
+The marble panel of calligraphy decorates the mosque’s interior beautifully, along with the pair of sebils outside.
+His gaze shifted to Saffet sitting at the library table.
+In the novel “Tales from the Garbage Hills,” Latife Tekin  describes gecekondu shelters set up on a hill near garbage heaps by lantern light.
+He guided her onto a plank and into a wooden crate on a cart.
+Cart_03 : Preferring the divan’s modesty, the seraskier entered the stationery store.
+Garbage_02 : Eight shelters emerged near daily garbage heaps on a lantern-lit hill one winter night.
+Table_116 : He glanced at Saffet at the library table.
+Seated side by side on cushions, the couple quietly enjoyed breakfast from a low table.
+Father and son sipped coffee at the breakfast table on a cool December morning.
+A fortune-teller taught the ancient art of tasseography amid Mount Sannine’s shadow and hospital visits.
+Memories of Berchtesgaden and GIs seeking souvenirs flooded Ben’s mind.
+Around the dining table, they gathered after half an hour.
+A Cappadocia carpet seller served lunchtime lamb stew, setting carpets aside.
+Offering tea in tulip-shaped glasses, the wife sent her husband with a dog down the steps.
+Soldiers and families embraced the trend of sharbat in Kars’ central “Addicts Alley.
+A street lined with bicycle and car repair shops unfolded.
+Mosaic glass tiles adorned an arched doorway with an engraved lantern.
+The Great Mosque’s central dome housed a three-tiered ablutions fountain.
+A picturesque tekke courtyard held a garden on one side and a charming graveyard on the other.
+Table_05 : Seated together on cushions, the couple quietly breakfasted from a low table.
+In Karma, they gathered around the dining table half an hour later.
+Although it’s impossible to sit on the chairs, we remove them from the table so Joy can set down her backpack.
+Billboard_02 : In Cappadocia, a carpet seller serves homemade lamb stew to customers.
+He walked past children throwing snowballs and a billboard depicting a blinded woman.
+The mosque was once surrounded by typical külliye structures including an imaret, a medrese, and a mektep.
+In a gracious gesture, she offered white chocolate from a crystal candy bowl resting on the coffee table.
+Within one of the houses now stands the library of the Çelik Gülersoy Foundation, housing an exceptional assortment of books, maps, engravings, and paintings showcasing Istanbul during Ottoman times.
+Curiously, he experimented by lying on stone benches inside each tomb, seeking the most comfortable couch.
+As we enter, we’re greeted by a spacious and inviting courtyard with a garden on one side and a picturesque graveyard on the other, creating an undeniable temptation to unwind at a café or restaurant on the bridge’s lower level.
+The bustling mahalle near the grand külliye introduces an exquisite eyvan adorned with intricate opus sectile mosaics, welcoming visitors into the mosque’s serene courtyard.
+Meanwhile, near the teal-green pools, bags of fish food are conveniently purchased at a kiosk.
+Bench_01 : He experimented with the stone benches in each tomb, seeking the most comfortable one.
+Fountain_09 : The medrese cells encircle a courtyard with a şadırvan and garden.
+The Great Mosque features a three-tiered ablutions fountain under its dome.
+Table_231 : Afterward, she presented white chocolate from the crystal candy bowl resting on the coffee table.
+Awning_02 : Kosmas secured the Vespa to a post supporting the building’s brown awning.
+Despite this, the building’s well-proportioned design and attractive courtyard garden maintain a charming ambiance.
+Fanis placed his order and settled on the bakery’s patio, shaded by a linden tree and an awning.
+People scavenged through garbage, shared seats near cat food and miniature houses.
+Exhausted from carrying boxes, Kosmas collapsed onto his window bench.
+An upstairs restaurant with Italian-Turkish fusion and a small café in a glass cube were highlights.
+The market featured stalls with tools, spices, coffee grinders, watermelons, and more.
+Awning_00 : Under the linden tree’s shade and an awning labeled “Neighbor’s House,” he switched on wall lights, knelt on a cushion, and looked out.
+A glass cube at the back serves as a café, while an upstairs restaurant offers Italian-Turkish fusion.
+Bench_00 : Exhausted from hauling boxes upstairs, Kosmas collapsed onto his oriel window’s padded bench, sipping Nescafé.
+Out the window, I spotted a row of bicycle and car repair shops.
+Galip and the woman took their seats, chairs and stools, respectively.
+Chair_09 : Galip took a seat by the door, while the woman settled on a stool by her dressing table, reminiscent of one in a film.
+Upon the shredded chicken pudding and coffee’s arrival, Fanis inspected their cups for jealousy bubbles.
+Alternatively, take the E10 bus to Kadıköy and ferry across the Bosphorus to Eminönü.
+Despite heartburn, she’d drink that third coffee, shop with the girls, join neighbors for a picnic at Kilyos, despite swimsuit discomfort.
+It occupies a site of a mosque by Sinan, founded by Süleyman the Magnificent in memory of his hunchback son Cihangir.
+The pain of love would vanish sitting with Füsun; the pain that brought thoughts of suicide would fade.
+To escape cars and crowds, we walked to the other end of Rumelihisarı, witnessing an Ottoman mansion in flames.
+Picture: forced friendship between cat and mouse from Kelile and Dimne.
+That same day, I put the baby in her pram and walked out of the house into the bustling street.
+Up we go through the quiet streets, past a group of men leaving the courtyard of the mosque and a gray striped cat that scurries into an alley to pick at a chicken bone.
+Coffee_37 : In spite of her heartburn, she would need to finish that third cup of coffee, accompany the girls on shopping trips even if she preferred solitude, and participate in Kilyos picnics with old neighbors.
+The türbe connects to a small wooden mosque with a baroque wooden dome through a large grilled opening.
+Looking at scratched hallway floors and bougainvillea vines, I can’t decide if they pull down or hold up the balcony.
+A big crow from the garden watches us from the balcony in silence.
+To shake off drowsiness, she makes coffee, stirring sugar with a clinking spoon.
+Nalan finds an empty coffee cup, stubbing out a cigarette.
+Laledan restaurant at Çırağan Palace Hotel Kempinski serves brunches in a fairy-tale setting.
+Small grocery store replaced by a two-story apartment building with sea-facing balconies.
+Koca Sinan Paşa tomb complex, across an alley from Çorlulu Ali Paşa Courtyard, features a tea garden.
+Display of tractor tires and exhaust pipes on the Athens-to-Sparta highway.
+Galip prepares strong coffee before launching into “The Mystery of the Letters and the Loss of Mystery.
+” Master fortune-teller teaches tasseography—reading tea leaves, wine dregs, and coffee grounds.
+Rustem Bey sips coffee, inhaling rich smoke with a new flavor.
+Balcony_00 : As I observe the scratched floors in the hallway and the trailing bougainvillaea vines, I’m unsure if they’re dragging the balcony downward or holding it aloft.
